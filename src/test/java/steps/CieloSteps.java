@@ -141,6 +141,14 @@ public class CieloSteps {
             return;
         }
 
+        // Verifica se há novas janelas abertas (ex: clique anterior abriu nova aba)
+        // e muda o foco para a última janela antes de tentar interagir
+        if (driver.getWindowHandles().size() > 1) {
+             for (String windowHandle : driver.getWindowHandles()) {
+                  driver.switchTo().window(windowHandle);
+             }
+        }
+
         try {
             By locator = getLocator(nomeSubElemento);
             // Tenta encontrar o elemento e clicar

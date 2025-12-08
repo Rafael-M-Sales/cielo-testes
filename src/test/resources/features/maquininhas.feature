@@ -1,3 +1,4 @@
+
 # language: pt
 Funcionalidade: Contratação e Visualização de Maquininhas
 
