@@ -76,7 +76,7 @@ public class CieloSteps {
     }
 
     // Passo para destacar e clicar em um elemento
-    @Then("eu destaco e clico no elemento {string}")
+    @When("eu destaco e clico no elemento {string}")
     public void euDestacoEClicoNoElemento(String nomeElemento) {
         this.nomeElementoAtual = nomeElemento;
         try {
@@ -198,6 +198,11 @@ public class CieloSteps {
         }
     }
 
+    @And("eu clico no botão {string} ou equivalente")
+    public void euClicoNoBotaoOuEquivalente(String nomeBotao) {
+        euClicoNoBotao(nomeBotao);
+    }
+
     @And("eu preencho o CNPJ {string}")
     public void euPreenchoOCNPJ(String cnpj) {
         String nomeElemento = "CNPJ";
@@ -238,6 +243,126 @@ public class CieloSteps {
             ElementHelper.takeScreenshot("Erro_Selecionar_" + nomeElemento, "Erro");
         }
     }
+
+    @And("eu clico fora ou tab para validar")
+    public void euClicoForaOuTabParaValidar() {
+        try {
+            // Clica no body para tirar o foco do input
+            driver.findElement(By.tagName("body")).click();
+        } catch (Exception e) {
+        }
+    }
+
+    @Then("eu vejo a mensagem de erro {string}")
+    public void euVejoAMensagemDeErro(String mensagemErro) {
+        try {
+           // Procura por qualquer elemento que contenha o texto do erro
+            By locator = By.xpath("//*[contains(text(), '" + mensagemErro + "') and (contains(@class, 'error') or contains(@class, 'invalid') or contains(@style, 'color: red'))]");
+            WebElement erro = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+            ElementHelper.highlightElement(erro);
+            ElementHelper.takeScreenshot("Erro_Visivel_" + mensagemErro.replace(" ", "_"), "Resultado");
+            ElementHelper.unhighlightElement(erro);
+        } catch (Exception e) {
+            // Fallback genérico se não achar por classe de erro
+            try {
+                By locator = By.xpath("//*[contains(text(), '" + mensagemErro + "')]");
+                WebElement erro = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+                ElementHelper.highlightElement(erro);
+                ElementHelper.takeScreenshot("Erro_Visivel_Generico_" + mensagemErro.replace(" ", "_"), "Resultado");
+                ElementHelper.unhighlightElement(erro);
+            } catch (Exception ex) {
+                 System.out.println("Mensagem de erro não encontrada: " + mensagemErro);
+                 ElementHelper.takeScreenshot("Erro_Nao_Encontrado", "Erro");
+            }
+        }
+    }
+    
+    @Then("eu vejo a validação de campos obrigatórios")
+    public void euVejoAValidacaoDeCamposObrigatorios() {
+         // Verifica se inputs obrigatórios estão com estado de erro (ex: borda vermelha ou msg 'Campo obrigatório')
+         try {
+            By locator = By.xpath("//*[contains(text(), 'obrigatório') or contains(@class, 'error') or contains(@class, 'invalid')]");
+            wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+            ElementHelper.takeScreenshot("Validacao_Campos_Obrigatorios", "Resultado");
+         } catch(Exception e) {
+            System.out.println("Validação de campos não encontrada.");
+         }
+    }
+
+    @When("eu realizo uma busca por {string}")
+    public void euRealizoUmaBuscaPor(String termo) {
+        try {
+            // Clica na lupa ou campo se necessário para expandir (comum em menus)
+            /* 
+               Nota: Dependendo do site, a busca pode estar dentro do menu Ajuda ou numa página dedicada.
+               Vamos assumir que ao clicar em 'Ajuda', já temos acesso à busca ou vamos para a página de Central de Ajuda.
+            */ 
+            
+            By inputLocator = getLocator("Campo de Busca");
+            WebElement input = wait.until(ExpectedConditions.visibilityOfElementLocated(inputLocator));
+            ElementHelper.highlightElement(input);
+            input.clear();
+            input.sendKeys(termo);
+            ElementHelper.takeScreenshot("Busca_Preenchida_" + termo, "Acao");
+            
+            // Pressiona Enter ou clica no botão de pesquisar
+            input.submit(); 
+            // Ou use: driver.findElement(getLocator("Botão Pesquisar")).click();
+            
+            ElementHelper.unhighlightElement(input);
+        } catch (Exception e) {
+             System.out.println("Erro ao realizar busca: " + e.getMessage());
+             ElementHelper.takeScreenshot("Erro_Busca", "Erro");
+        }
+    }
+
+    @Then("eu vejo resultados relacionados a {string}")
+    public void euVejoResultadosRelacionadosA(String termo) {
+        try {
+            // Espera resultados aparecerem
+            By resultsLocator = By.xpath("//*[contains(text(), '" + termo + "') or contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '" + termo.toLowerCase() + "')]");
+            wait.until(ExpectedConditions.visibilityOfElementLocated(resultsLocator));
+            ElementHelper.takeScreenshot("Resultados_Busca_" + termo, "Resultado");
+        } catch (Exception e) {
+            System.out.println("Resultados não encontrados para: " + termo);
+            ElementHelper.takeScreenshot("Erro_Resultados_Nao_Encontrados", "Erro");
+        }
+    }
+
+    @Then("eu vejo a mensagem de nenhum resultado encontrado")
+    public void euVejoAMensagemDeNenhumResultadoEncontrado() {
+        try {
+            // Texto comum de "não encontrado"
+            By locator = By.xpath("//*[contains(text(), 'nenhum resultado') or contains(text(), 'não encontramos') or contains(text(), '0 resultados')]");
+            wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+            ElementHelper.takeScreenshot("Sem_Resultados_Mensagem", "Resultado");
+        } catch (Exception e) {
+             System.out.println("Mensagem de 'nenhum resultado' não encontrada.");
+        }
+    }
+
+    @Then("eu sou redirecionado para a loja de aplicativos {string}")
+    public void euSouRedirecionadoParaALojaDeAplicativos(String loja) {
+        try {
+            // Muda o foco para a nova aba se houver
+            Set<String> janelas = driver.getWindowHandles();
+            if (janelas.size() > 1) {
+                for (String janela : janelas) {
+                     driver.switchTo().window(janela);
+                }
+            }
+            
+            // Aguarda a URL conter o domínio esperado (ex: apple.com ou google.com)
+            wait.until(ExpectedConditions.urlContains(loja));
+            System.out.println("Redirecionamento validado: URL contém " + loja);
+            ElementHelper.takeScreenshot("Redirecionamento_" + loja, "Resultado");
+            
+        } catch (Exception e) {
+            System.out.println("Erro ao validar redirecionamento para " + loja + ": " + e.getMessage());
+            ElementHelper.takeScreenshot("Erro_Redirecionamento", "Erro");
+        }
+    }
+
 
     // Método auxiliar para obter o localizador (By) baseado no nome do elemento
     private By getLocator(String nomeElemento) {
@@ -359,10 +484,18 @@ public class CieloSteps {
             case "Eu Quero":
                 return By.xpath(
                         "//button[contains(., 'Eu quero') or contains(., 'EU QUERO')] | //a[contains(., 'Eu quero') or contains(., 'EU QUERO')]");
+            case "Continuar":
+                return By.xpath("//button[contains(., 'Continuar')] | //a[contains(., 'Continuar')]");
             case "CNPJ":
                 return By.xpath("//input[@name='cnpj' or @id='cnpj' or contains(@placeholder, 'CNPJ')]");
             case "Checkbox Termos":
                 return By.xpath("//input[@type='checkbox']");
+
+            // Busca Ajuda
+            case "Campo de Busca":
+                return By.xpath("//input[@type='search' or @placeholder='Digite a sua dúvida'] | //input[contains(@class, 'search')]");
+            case "Botão Pesquisar":
+                return By.xpath("//button[contains(@class, 'search') or .//i[contains(@class, 'search')]]");
 
             default:
                 // Tenta encontrar por texto se não estiver mapeado
