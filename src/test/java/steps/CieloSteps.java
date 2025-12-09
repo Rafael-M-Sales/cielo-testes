@@ -419,6 +419,8 @@ public class CieloSteps {
                 return By.xpath("//nav//a[contains(., 'Tap to Pay') or contains(@href, 'tap-to-pay')]");
             case "Cielo Tap":
                 return By.xpath("//nav//a[contains(., 'Cielo Tap') or contains(@href, 'cielo-tap')]");
+            case "Conheça todas":
+                return By.xpath("//nav//a[contains(., 'Conheça todas') or contains(@href, 'maquininhas-cielo')]");
             case "Cielo Aluguel":
                 return By.xpath("//nav//a[contains(., 'Aluguel') or contains(@href, 'aluguel')]");
 
@@ -462,7 +464,7 @@ public class CieloSteps {
             case "Checkout": // Mantido por compatibilidade se usado em outro lugar
                 return By.xpath("//h3[contains(., 'Checkout')] | //a[contains(., 'Checkout')]");
             case "Link de Pagamento":
-                return By.xpath("//a[contains(., 'Link de Pagamento')]");
+                return By.xpath("//a[contains(., 'Link de Pagamento')] | //button[contains(., 'Link de Pagamento')]");
             case "API E-commerce":
                 return By.xpath("//a[contains(., 'API E-commerce')]");
             case "Para seu negócio":
@@ -498,6 +500,28 @@ public class CieloSteps {
                 return By.xpath("//input[@name='cnpj' or @id='cnpj' or contains(@placeholder, 'CNPJ')]");
             case "Checkbox Termos":
                 return By.xpath("//input[@type='checkbox']");
+
+            // Homepage CTAs
+            case "Maquininha no celular":
+                return By.xpath("//button[contains(@class, 'cta') and .//span[contains(text(), 'Maquininha no celular')]]");
+            case "Soluções personalizadas":
+                return By.xpath("//button[contains(@class, 'cta') and .//span[contains(text(), 'Soluções personalizadas')]]");
+            case "CTA E-commerce":
+                 return By.xpath("//button[contains(@class, 'cta') and .//span[contains(text(), 'E-commerce')]]");
+
+            // Footer Links
+            case "Produtos Cielo":
+                return By.xpath("//a[.//p[contains(text(), 'Produtos Cielo')]]");
+            case "Conheça a Cielo":
+                return By.xpath("//a[.//p[contains(text(), 'Conheça a Cielo')]]");
+            case "Fale conosco":
+                return By.xpath("//a[.//p[contains(text(), 'Fale conosco')]]");
+            case "Trabalhe conosco":
+                return By.xpath("//a[contains(@href, '/trabalhe-conosco/')]");
+            case "Portal de Desenvolvedores":
+                return By.xpath("//a[contains(@href, 'desenvolvedores.cielo.com.br')]");
+            case "ICVA e Release":
+                return By.xpath("//a[contains(@href, '/inteligencia-de-dados/')]");
 
             // Busca Ajuda
             case "Campo de Busca":

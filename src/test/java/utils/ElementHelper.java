@@ -80,8 +80,8 @@ public class ElementHelper {
         String pastaData = new SimpleDateFormat("yyyy-MM-dd").format(new Date());
         String timestamp = new SimpleDateFormat("HHmmssSSS").format(new Date());
 
-        // Cria a estrutura de diretórios: screenshots/NomeCenario/Tipo/
-        String caminhoDiretorio = "screenshots/" + nomeCenario + "/" + tipo + "/";
+        // Cria a estrutura de diretórios: screenshots/Data/NomeCenario/Tipo/
+        String caminhoDiretorio = "screenshots/" + pastaData + "/" + nomeCenario + "/" + tipo + "/";
         new File(caminhoDiretorio).mkdirs();
 
         String nomeArquivo = caminhoDiretorio + nome + "_" + timestamp + ".png";
