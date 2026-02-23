@@ -4,57 +4,75 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 
+import org.openqa.selenium.remote.RemoteWebDriver;
+
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.time.Duration;
 
 public class DriverFactory {
 
-    private static WebDriver driver;
+    private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 
-    // Método para obter a instância do WebDriver (Singleton)
     public static WebDriver getDriver() {
-        if (driver == null) {
-            String remoteUrl = System.getenv("SELENIUM_REMOTE_URL");
-            
-            ChromeOptions options = new ChromeOptions();
-            options.addArguments("--remote-allow-origins=*");
-            options.addArguments("--start-maximized");
-            // Opções recomendadas para rodar em container
-            options.addArguments("--no-sandbox"); 
-            options.addArguments("--disable-dev-shm-usage");
+        if (driver.get() == null) {
+            String browser = ConfigReader.getProperty("browser", "chrome");
+            boolean headless = Boolean.parseBoolean(ConfigReader.getProperty("headless", "false"));
 
+            String remoteUrl = ConfigReader.getProperty("SELENIUM_REMOTE_URL");
+            
             if (remoteUrl != null && !remoteUrl.isEmpty()) {
+                ChromeOptions options = new ChromeOptions();
+                if (headless) {
+                    options.addArguments("--headless");
+                }
+                options.addArguments("--start-maximized");
+                options.addArguments("--remote-allow-origins=*");
+                options.addArguments("--no-sandbox");
+                options.addArguments("--disable-dev-shm-usage");
+                
                 try {
-                    System.out.println("DriverFactory: Conectando ao Selenium Grid em " + remoteUrl);
-                    driver = new org.openqa.selenium.remote.RemoteWebDriver(new java.net.URL(remoteUrl), options);
-                } catch (java.net.MalformedURLException e) {
-                    throw new RuntimeException("URL do Selenium Remoto inválida: " + remoteUrl, e);
+                    driver.set(new RemoteWebDriver(new URL(remoteUrl), options));
+                } catch (MalformedURLException e) {
+                    throw new RuntimeException("Invalid Remote WebDriver URL: " + remoteUrl, e);
                 }
             } else {
-                // Configura o ChromeDriver automaticamente usando WebDriverManager (Execução Local)
-                System.out.println("DriverFactory: Iniciando ChromeDriver local");
-                WebDriverManager.chromedriver().setup();
-                driver = new ChromeDriver(options);
+                switch (browser.toLowerCase()) {
+                    case "firefox":
+                        WebDriverManager.firefoxdriver().setup();
+                        driver.set(new FirefoxDriver());
+                        break;
+                    case "edge":
+                        WebDriverManager.edgedriver().setup();
+                        driver.set(new EdgeDriver());
+                        break;
+                    case "chrome":
+                    default:
+                        WebDriverManager.chromedriver().setup();
+                        ChromeOptions options = new ChromeOptions();
+                        if (headless) {
+                            options.addArguments("--headless");
+                        }
+                        options.addArguments("--start-maximized");
+                        options.addArguments("--remote-allow-origins=*");
+                        driver.set(new ChromeDriver(options));
+                        break;
+                }
             }
-
-            // Define uma espera implícita padrão de 10 segundos
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-            System.out.println("DriverFactory: Novo driver criado " + driver);
+            
+            driver.get().manage().window().maximize();
+            driver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(Long.parseLong(ConfigReader.getProperty("timeout", "10"))));
         }
-        return driver;
+        return driver.get();
     }
 
-    // Método para encerrar a sessão do WebDriver
     public static void quitDriver() {
-        if (driver != null) {
-            System.out.println("DriverFactory: Encerrando driver " + driver);
-            try {
-                driver.quit();
-            } catch (Exception e) {
-                System.out.println("DriverFactory: Erro ao encerrar driver: " + e.getMessage());
-            } finally {
-                driver = null;
-            }
+        if (driver.get() != null) {
+            driver.get().quit();
+            driver.remove();
         }
     }
 }

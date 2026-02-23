@@ -11,3 +11,4 @@ target/
 
 # Project specific
 screenshots/
+allure-results/

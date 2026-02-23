@@ -6,11 +6,12 @@ Funcionalidade: Login Cielo
     E eu fecho o popup
 
   @Login @HappyPath
-  Esquema do Cenário: Navegar pelo Login <SubElemento>
+  Esquema do Cenário: Validar Acesso ao Login <SubElemento>
     Quando eu destaco e clico no elemento "Login"
     E eu interajo com o sub-elemento "<SubElemento>"
-    Então eu tiro um screenshot do resultado "Resultado"
+    Então eu sou redirecionado para a loja de aplicativos "cielo.com.br"
+    E eu tiro um screenshot do resultado "Pagina_Login"
 
     Exemplos:
-      | SubElemento   |
-      | Criar conta   |
+      | SubElemento         |
+      | Minha Conta Cielo   |

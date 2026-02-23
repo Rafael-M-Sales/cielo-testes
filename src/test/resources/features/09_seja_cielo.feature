@@ -14,3 +14,12 @@ Funcionalidade: Seja Cielo
     Exemplos:
       | SubElemento   |
       | Cadastre-se   |
+
+  @SejaCielo @UnhappyPath
+  Esquema do Cenário: Tentativa de Cadastro com CNPJ Inválido
+    Quando eu destaco e clico no elemento "Seja Cielo"
+    E eu interajo com o sub-elemento "Cadastre-se"
+    E eu preencho o CNPJ "00.000.000/0000-00"
+    E eu clico fora ou tab para validar
+    Então eu vejo a validação de campos obrigatórios
+    E eu tiro um screenshot do resultado "Erro_CNPJ"

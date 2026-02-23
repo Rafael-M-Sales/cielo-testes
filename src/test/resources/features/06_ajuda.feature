@@ -1,39 +1,27 @@
 # language: pt
-Funcionalidade: Central de Ajuda Cielo
+Funcionalidade: Ajuda Cielo
 
   Contexto:
     Dado que eu acesso a página inicial da Cielo
     E eu fecho o popup
 
   @Ajuda @HappyPath
-  Esquema do Cenário: Visualizar Canais de Ajuda <SubElemento>
+  Esquema do Cenário: Navegar pela Ajuda <SubElemento>
     Quando eu destaco e clico no elemento "Ajuda"
     E eu interajo com o sub-elemento "<SubElemento>"
-    Então eu tiro um screenshot do resultado "Positivo"
+    Então eu tiro um screenshot do resultado "Resultado"
 
     Exemplos:
-      | SubElemento               |
-      | Acompanhar pedido         |
-      | Central de atendimento    |
+      | SubElemento             |
       | Atendimento pelo WhatsApp |
-      | Atendimento em Libras     |
-      | Status Cielo              |
+      | Atendimento em Libras   |
+      | Status Cielo            |
+      | Central de atendimento  |
+      | Dúvidas frequentes      |
+      | Acompanhar pedido       |
 
-  @Ajuda @Search
-  Esquema do Cenário: Buscar na Central de Ajuda com Sucesso
+  @Ajuda @Busca
+  Cenário: Realizar busca na Central de Ajuda
     Quando eu destaco e clico no elemento "Ajuda"
-    E eu realizo uma busca por "<Termo>"
-    Então eu vejo resultados relacionados a "<Termo>"
-    E eu tiro um screenshot do resultado "Busca_Sucesso"
-
-    Exemplos:
-      | Termo       |
-      | Segunda via |
-      | Cancelamento|
-
-  @Ajuda @Search @UnhappyPath
-  Esquema do Cenário: Buscar na Central de Ajuda sem Resultados
-    Quando eu destaco e clico no elemento "Ajuda"
-    E eu realizo uma busca por "xpto1234invalidterm"
-    Então eu vejo a mensagem de nenhum resultado encontrado
-    E eu tiro um screenshot do resultado "Busca_SemResultados"
+    E eu realizo uma busca por "Taxas"
+    Então eu vejo resultados relacionados a "Taxas"
