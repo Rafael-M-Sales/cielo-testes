@@ -92,6 +92,15 @@ public class CommonPage extends BasePage {
         }
     }
     
+    public void acessarSubMenuCookies(String subMenu) {
+        By locator = By.xpath("//button[contains(., '" + subMenu + "')] | //a[contains(., '" + subMenu + "')]");
+        if (isElementVisible(locator)) {
+            click(locator);
+        } else {
+            throw new IllegalArgumentException("Sub-menu de Cookies não encontrado: " + subMenu);
+        }
+    }
+
     // Generic navigation method matching the previous style but cleaner
     public void acessarMenu(String menu) {
         switch (menu) {

@@ -27,4 +27,4 @@ Funcionalidade: Maquininhas Cielo
     Quando eu destaco e clico no elemento "Maquininhas"
     E eu clico no botão "Conheça todas" ou equivalente
     Então eu vejo o elemento "Banner Maquininhas"
-    E eu vejo o elemento "Taxas" |
+    E eu vejo o elemento "Taxas"

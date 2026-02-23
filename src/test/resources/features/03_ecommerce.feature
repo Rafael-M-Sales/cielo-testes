@@ -24,4 +24,4 @@ Funcionalidade: E-commerce Cielo
     Quando eu destaco e clico no elemento "E-commerce"
     E eu clico no botão "E-commerce" ou equivalente
     Então eu vejo o elemento "Título E-commerce"
-    E eu vejo o elemento "Cielo Checkout" |
+    E eu vejo o elemento "Cielo Checkout"

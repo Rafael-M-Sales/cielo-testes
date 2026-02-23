@@ -7,61 +7,19 @@
   },
   {
     "method": "GET",
-    "url": "https://dev.visualwebsiteoptimizer.com/j.php?a\u003d849422\u0026u\u003dhttps%3A%2F%2Fwww.cielo.com.br%2F\u0026vn\u003d2.1\u0026x\u003dtrue",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/app.01e7b97c.c11c0fd58388f2a9c8b6.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
     "url": "https://www.cielo.com.br/_nuxt/vendors.2c226e84.a7836859f15585c571a5.css",
     "status": 200,
     "mimeType": "text/css"
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/vendors.d939e436.0a62975200b021d67a91.css",
-    "status": 200,
-    "mimeType": "text/css"
-  },
-  {
-    "method": "GET",
-    "url": "https://fonts.googleapis.com/css2?family\u003dMontserrat:wght@100;300;400;500;700;900\u0026display\u003dswap",
-    "status": 200,
-    "mimeType": "text/css"
-  },
-  {
-    "method": "GET",
-    "url": "https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-b508a2dd7cdc3e722b4c16cb0795872b.br.js",
-    "status": 200,
-    "mimeType": "text/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-5b1a8337aef9c765d0961c2a01b45de5.br.js",
-    "status": 200,
-    "mimeType": "text/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/fonts/Ubuntu-700.woff2",
-    "status": 200,
-    "mimeType": "text/plain"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/fonts/Ubuntu-400.woff2",
-    "status": 200,
-    "mimeType": "text/plain"
-  },
-  {
-    "method": "GET",
     "url": "https://www.cielo.com.br/_nuxt/vendors.253ae210.fa4333c8a5418b3c8449.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/vendors.d939e436.0a62975200b021d67a91.css",
     "status": 200,
     "mimeType": "text/css"
   },
@@ -76,30 +34,6 @@
     "url": "https://www.cielo.com.br/_nuxt/app.40190f78.a94b016311f431c2538c.css",
     "status": 200,
     "mimeType": "text/css"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/app.01d99f6b.91393746c997d8e26332.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/app.40190f78.e016f3753162356c2688.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/app.41cb216a.6eda750ecd64f334ab2c.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/app.b1ba7ea3.e6b5b6d7559a87a78e83.js",
-    "status": 200,
-    "mimeType": "application/javascript"
   },
   {
     "method": "GET",
@@ -169,6 +103,12 @@
   },
   {
     "method": "GET",
+    "url": "https://www.cielo.com.br/fonts/Ubuntu-700.woff2",
+    "status": 200,
+    "mimeType": "text/plain"
+  },
+  {
+    "method": "GET",
     "url": "https://www.cielo.com.br/_nuxt/112.f9a71d72903692f44e68.css",
     "status": 200,
     "mimeType": "text/css"
@@ -182,12 +122,6 @@
   {
     "method": "GET",
     "url": "https://www.cielo.com.br/_nuxt/114.a70fce2d64f4d2dd1767.css",
-    "status": 200,
-    "mimeType": "text/css"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/115.572f3718718dcf760129.css",
     "status": 200,
     "mimeType": "text/css"
   },
@@ -212,12 +146,6 @@
   {
     "method": "GET",
     "url": "https://www.cielo.com.br/_nuxt/22.fc5775ebfd3bbfac8d49.css",
-    "status": 200,
-    "mimeType": "text/css"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/23.cef734483e619b4654df.css",
     "status": 200,
     "mimeType": "text/css"
   },
@@ -295,9 +223,45 @@
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/bem-vindo/cielo-zip/index.f075b844.6e88a7588559ad3a68bf.css",
+    "url": "https://www.cielo.com.br/_nuxt/app.01e7b97c.c11c0fd58388f2a9c8b6.js",
     "status": 200,
-    "mimeType": "text/css"
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/app.01d99f6b.91393746c997d8e26332.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/app.40190f78.e016f3753162356c2688.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/app.b1ba7ea3.e6b5b6d7559a87a78e83.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/app.41cb216a.6eda750ecd64f334ab2c.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/app.d0ae3f07.a0567f6c3bde832648c6.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/commons.1210926a.851b1f93e0119f51fc4f.js",
+    "status": 200,
+    "mimeType": "application/javascript"
   },
   {
     "method": "GET",
@@ -326,6 +290,24 @@
   {
     "method": "GET",
     "url": "https://www.cielo.com.br/_nuxt/pages/central-de-atendimento/index.f075b844.5be37f99255fd782f4fa.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/115.572f3718718dcf760129.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/23.cef734483e619b4654df.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/bem-vindo/cielo-zip/index.f075b844.6e88a7588559ad3a68bf.css",
     "status": 200,
     "mimeType": "text/css"
   },
@@ -415,6 +397,30 @@
   },
   {
     "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/commons.678f84af.31d897fef91bb0c4ce99.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/commons.253ae210.72986b6ca395f794cbdd.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/commons.93acefaf.a8d2174f35dfbb435d15.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/commons.d939e436.cdfa69b2a82943483770.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
     "url": "https://www.cielo.com.br/_nuxt/pages/contrato-de-credenciamento/index.f075b844.ce38de7fdb8a5014783f.css",
     "status": 200,
     "mimeType": "text/css"
@@ -446,12 +452,6 @@
   {
     "method": "GET",
     "url": "https://www.cielo.com.br/_nuxt/pages/form-parceiro/index.f075b844.f052fa0d2318ab310743.css",
-    "status": 200,
-    "mimeType": "text/css"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/fornecedores/index.f075b844.fb06bca44e4f33c67673.css",
     "status": 200,
     "mimeType": "text/css"
   },
@@ -490,108 +490,6 @@
     "url": "https://www.cielo.com.br/_nuxt/pages/loja-integrada/index.f075b844.4e670b8aade6c26b3358.css",
     "status": 200,
     "mimeType": "text/css"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/mapa-do-site/index.1a814d42.31b44c5bd60a5eb5c024.css",
-    "status": 200,
-    "mimeType": "text/css"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/maquininhas-de-cartao/cielo-flash/index.f075b844.f463698e8052dea99b23.css",
-    "status": 200,
-    "mimeType": "text/css"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/maquininhas-de-cartao/cielo-lio-on/index.f075b844.ee88be1bf60cc8ebe400.css",
-    "status": 200,
-    "mimeType": "text/css"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/maquininhas-de-cartao/index.30433558.d9676c4b2394defff2f9.css",
-    "status": 200,
-    "mimeType": "text/css"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/minha-conta-cielo/index.f075b844.c884627fb9478a2726ae.css",
-    "status": 200,
-    "mimeType": "text/css"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/parceria-nuvemshop/index.941f472c.2aa4044fa92ac2cb8b65.css",
-    "status": 200,
-    "mimeType": "text/css"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/planos/index.f075b844.d3dac27edb4e6bf04ab6.css",
-    "status": 200,
-    "mimeType": "text/css"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/app.d0ae3f07.a0567f6c3bde832648c6.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/commons.1210926a.851b1f93e0119f51fc4f.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/privacidade/index.941f472c.ec79ac1d2592efa37615.css",
-    "status": 200,
-    "mimeType": "text/css"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/commons.253ae210.72986b6ca395f794cbdd.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/relatorio-de-ouvidoria/index.941f472c.6952bfe7ee8e28397cbf.css",
-    "status": 200,
-    "mimeType": "text/css"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/split-de-pagamento/index.f075b844.ef47a94fbaacb5810137.css",
-    "status": 200,
-    "mimeType": "text/css"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/commons.678f84af.31d897fef91bb0c4ce99.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/commons.93acefaf.a8d2174f35dfbb435d15.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/commons.d939e436.cdfa69b2a82943483770.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/commons.fdc6512a.fde1c40d6d69a7bbbc53.js",
-    "status": 200,
-    "mimeType": "application/javascript"
   },
   {
     "method": "GET",
@@ -625,103 +523,49 @@
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/vendors.61bf1443.3c24d152790ef0485ee1.js",
+    "url": "https://www.cielo.com.br/_nuxt/commons.fdc6512a.fde1c40d6d69a7bbbc53.js",
     "status": 200,
     "mimeType": "application/javascript"
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/vendors.690b702c.214fb6c760d346a61565.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/vendors.7d359b94.17ec1fcaccb6e375b6fa.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/vendors.7dcdd765.81789f49e25ab2045322.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/vendors.9200df93.265cfbfcdc46484e6799.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/vendors.b58f7129.42019d4e0500d4573cbe.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/vendors.a1f3e5b9.62beeb4fd3c7823ccd9c.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/vendors.d939e436.c8fa009e419030e41cb8.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/vendors.e9436333.0792614b4070dbdc2a46.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/vendors.ec431cb3.4758b8000b26c6be5052.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/sustentabilidade/central-de-downloads/index.941f472c.e964065221dc8fce5185.css",
+    "url": "https://www.cielo.com.br/_nuxt/pages/fornecedores/index.f075b844.fb06bca44e4f33c67673.css",
     "status": 200,
     "mimeType": "text/css"
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/sustentabilidade/central-de-downloads/index.pages/sustentabilidade/impacto-na-governanca/index.328a8c90.0b3551fd3b1df0837a2a.css",
+    "url": "https://www.cielo.com.br/_nuxt/pages/mapa-do-site/index.1a814d42.31b44c5bd60a5eb5c024.css",
     "status": 200,
     "mimeType": "text/css"
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/index.f075b844.d1803c17baad138d3391.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/index.514c5e7c.c2be7d0cf358d8479fa4.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/sustentabilidade/impacto-na-governanca/index.6f3d4cef.87a597e0f2ad8dee67d2.css",
+    "url": "https://www.cielo.com.br/_nuxt/pages/maquininhas-de-cartao/cielo-flash/index.pages/varejo/index.pages/venda-mais/cieloconversor/ind.e66e4f0c.480cfce2ab895ba27547.css",
     "status": 200,
     "mimeType": "text/css"
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/sustentabilidade/impacto-na-governanca/index.pages/sustentabilidade/impacto-nas-pessoas/index..212961c6.c946dd83f085f4ffe78f.css",
+    "url": "https://www.cielo.com.br/_nuxt/pages/maquininhas-de-cartao/cielo-flash/index.f075b844.f463698e8052dea99b23.css",
     "status": 200,
     "mimeType": "text/css"
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/sustentabilidade/impacto-nas-pessoas/index.9ef16989.b9d658d72bfa8dbbf1e3.css",
+    "url": "https://www.cielo.com.br/_nuxt/pages/maquininhas-de-cartao/cielo-lio-on/index.f075b844.ee88be1bf60cc8ebe400.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/minha-conta-cielo/index.f075b844.c884627fb9478a2726ae.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/pix/index.f075b844.c043b509bd5f4cbd54f1.css",
     "status": 200,
     "mimeType": "text/css"
   },
@@ -757,7 +601,13 @@
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/venda-mais/cieloconversor/index.f075b844.bec25e3d599e09f887ca.css",
+    "url": "https://www.cielo.com.br/_nuxt/pages/sustentabilidade/impacto-na-governanca/index.pages/sustentabilidade/impacto-nas-pessoas/index..212961c6.c946dd83f085f4ffe78f.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/sustentabilidade/impacto-nas-pessoas/index.9ef16989.b9d658d72bfa8dbbf1e3.css",
     "status": 200,
     "mimeType": "text/css"
   },
@@ -769,7 +619,19 @@
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/maquininhas-de-cartao/cielo-flash/index.pages/varejo/index.pages/venda-mais/cieloconversor/ind.e66e4f0c.480cfce2ab895ba27547.css",
+    "url": "https://www.cielo.com.br/assets_cielo/lp_home/offers/coin-dual.svg",
+    "status": 200,
+    "mimeType": "image/svg+xml"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/maquininhas-de-cartao/index.30433558.d9676c4b2394defff2f9.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/parceria-nuvemshop/index.941f472c.2aa4044fa92ac2cb8b65.css",
     "status": 200,
     "mimeType": "text/css"
   },
@@ -778,24 +640,6 @@
     "url": "https://www.cielo.com.br/_nuxt/pages/patrocinios/index.f075b844.eb966869e716d011ab98.css",
     "status": 200,
     "mimeType": "text/css"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/pix/index.f075b844.c043b509bd5f4cbd54f1.css",
-    "status": 200,
-    "mimeType": "text/css"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/pix/termo-de-uso/index.aca97159.0edb87f95e91dfd9d57d.css",
-    "status": 200,
-    "mimeType": "text/css"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/lp_home/offers/coin-dual.svg",
-    "status": 200,
-    "mimeType": "image/svg+xml"
   },
   {
     "method": "GET",
@@ -811,33 +655,147 @@
   },
   {
     "method": "GET",
-    "url": "https://js-cdn.dynatrace.com/jstag/19223e8e12b/bf08413vmu/26ad81c10515aeaa_complete.js",
+    "url": "https://www.cielo.com.br/_nuxt/pages/sustentabilidade/central-de-downloads/index.941f472c.e964065221dc8fce5185.css",
     "status": 200,
-    "mimeType": "text/javascript"
+    "mimeType": "text/css"
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/lp_home/offers/coin-multiple.svg",
+    "url": "https://www.cielo.com.br/_nuxt/pages/sustentabilidade/central-de-downloads/index.pages/sustentabilidade/impacto-na-governanca/index.328a8c90.0b3551fd3b1df0837a2a.css",
     "status": 200,
-    "mimeType": "image/svg+xml"
+    "mimeType": "text/css"
   },
   {
     "method": "GET",
-    "url": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw\u003d\u003d",
+    "url": "https://www.cielo.com.br/_nuxt/pages/sustentabilidade/impacto-na-governanca/index.6f3d4cef.87a597e0f2ad8dee67d2.css",
     "status": 200,
-    "mimeType": "image/gif"
+    "mimeType": "text/css"
   },
   {
     "method": "GET",
-    "url": "https://s.go-mpulse.net/boomerang/UVSHE-GCJLK-WWV6T-8B6W8-FP7ZJ",
+    "url": "https://www.cielo.com.br/_nuxt/pages/venda-mais/cieloconversor/index.f075b844.bec25e3d599e09f887ca.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/planos/index.f075b844.d3dac27edb4e6bf04ab6.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/privacidade/index.941f472c.ec79ac1d2592efa37615.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/relatorio-de-ouvidoria/index.941f472c.6952bfe7ee8e28397cbf.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/split-de-pagamento/index.f075b844.ef47a94fbaacb5810137.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/pix/termo-de-uso/index.aca97159.0edb87f95e91dfd9d57d.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/fonts/Ubuntu-400.woff2",
+    "status": 200,
+    "mimeType": "text/plain"
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.googleapis.com/css2?family\u003dMontserrat:wght@100;300;400;500;700;900\u0026display\u003dswap",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/vendors.690b702c.214fb6c760d346a61565.js",
     "status": 200,
     "mimeType": "application/javascript"
   },
   {
     "method": "GET",
-    "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2",
+    "url": "https://www.cielo.com.br/_nuxt/vendors.7d359b94.17ec1fcaccb6e375b6fa.js",
     "status": 200,
-    "mimeType": "font/woff2"
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/vendors.9200df93.265cfbfcdc46484e6799.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://dev.visualwebsiteoptimizer.com/j.php?a\u003d849422\u0026u\u003dhttps%3A%2F%2Fwww.cielo.com.br%2F\u0026vn\u003d2.1\u0026x\u003dtrue",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/vendors.b58f7129.42019d4e0500d4573cbe.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/index.f075b844.d1803c17baad138d3391.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/vendors.d939e436.c8fa009e419030e41cb8.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/vendors.ec431cb3.4758b8000b26c6be5052.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/vendors.a1f3e5b9.62beeb4fd3c7823ccd9c.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/vendors.61bf1443.3c24d152790ef0485ee1.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/vendors.7dcdd765.81789f49e25ab2045322.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/index.514c5e7c.c2be7d0cf358d8479fa4.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/vendors.e9436333.0792614b4070dbdc2a46.js",
+    "status": 200,
+    "mimeType": "application/javascript"
   },
   {
     "method": "GET",
@@ -847,33 +805,69 @@
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/xkd4He_Ir/F9-_LmQ/lA/7wVYD8wc2mrcGfEJ/EltsWg/GEEFZUIz/ChMB",
+    "url": "https://www.cielo.com.br/_nuxt/106.e21095bb10eb8a7a11f4.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/107.1b8a63b39b82f898d3d0.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/108.8c17850a2c34c3cdc6c3.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "method": "GET",
+    "url": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw\u003d\u003d",
+    "status": 200,
+    "mimeType": "image/gif"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/109.7c49b96231c9ab8ff1be.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/110.df4e6a1724f7e06a6359.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/111.ce1d72fce1cc63b289c2.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/assets_cielo/lp_home/offers/coin-multiple.svg",
+    "status": 200,
+    "mimeType": "image/svg+xml"
+  },
+  {
+    "method": "GET",
+    "url": "https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-b508a2dd7cdc3e722b4c16cb0795872b.br.js",
+    "status": 200,
+    "mimeType": "text/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/106.2ed861af12f9d3000ecf.js",
     "status": 200,
     "mimeType": "application/javascript"
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/lp_home/flags/pix.webp",
+    "url": "https://www.cielo.com.br/_nuxt/112.f9a71d72903692f44e68.css",
     "status": 200,
-    "mimeType": "image/webp"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/fonts/Montserrat-500.woff2",
-    "status": 200,
-    "mimeType": "text/plain"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/fonts/Montserrat-700.woff2",
-    "status": 200,
-    "mimeType": "text/plain"
-  },
-  {
-    "method": "GET",
-    "url": "https://cdn.evgnet.com/beacon/n55685555553vx3d3q23n3n3a655571615/cielo_produ/scripts/evergage.min.js",
-    "status": 200,
-    "mimeType": "application/javascript"
+    "mimeType": "text/css"
   },
   {
     "method": "GET",
@@ -883,7 +877,31 @@
   },
   {
     "method": "GET",
+    "url": "https://www.cielo.com.br/assets_cielo/lp_home/flags/pix.webp",
+    "status": 200,
+    "mimeType": "image/webp"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/assets_cielo/lp_home/flags/elo.webp",
+    "status": 200,
+    "mimeType": "image/webp"
+  },
+  {
+    "method": "GET",
     "url": "https://www.cielo.com.br/assets_cielo/lp_home/flags/mastercard.webp",
+    "status": 200,
+    "mimeType": "image/webp"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/assets_cielo/lp_home/flags/american-express.webp",
+    "status": 200,
+    "mimeType": "image/webp"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/assets_cielo/lp_home/flags/diners.webp",
     "status": 200,
     "mimeType": "image/webp"
   },
@@ -901,43 +919,19 @@
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/lp_home/flags/elo.webp",
-    "status": 200,
-    "mimeType": "image/webp"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/lp_home/flags/diners.webp",
-    "status": 200,
-    "mimeType": "image/webp"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/lp_home/flags/american-express.webp",
-    "status": 200,
-    "mimeType": "image/webp"
-  },
-  {
-    "method": "GET",
     "url": "https://www.cielo.com.br/assets_cielo/lp_home/flags/alelo.webp",
     "status": 200,
     "mimeType": "image/webp"
   },
   {
     "method": "GET",
-    "url": "https://dev.visualwebsiteoptimizer.com/cdn/edrv/nc-cbe4ce5c5e7158d82b63082fb10f1596.br.js",
-    "status": 200,
-    "mimeType": "text/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/lp_home/flags/seta-direita.svg",
-    "status": 200,
-    "mimeType": "image/svg+xml"
-  },
-  {
-    "method": "GET",
     "url": "https://www.cielo.com.br/assets_cielo/lp_home/flags/ticket.webp",
+    "status": 200,
+    "mimeType": "image/webp"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/assets_cielo/lp_home/flags/pluxee.webp",
     "status": 200,
     "mimeType": "image/webp"
   },
@@ -949,27 +943,15 @@
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/lp_home/solution-cards/cielo-tap/android.webp",
+    "url": "https://www.cielo.com.br/assets_cielo/lp_home/flags/seta-direita.svg",
     "status": 200,
-    "mimeType": "image/webp"
+    "mimeType": "image/svg+xml"
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/lp_home/flags/pluxee.webp",
+    "url": "https://www.cielo.com.br/assets_cielo/lp_home/solution-cards/cielo-tap/cielo-tap.webp",
     "status": 200,
     "mimeType": "image/webp"
-  },
-  {
-    "method": "POST",
-    "url": "https://www.cielo.com.br/xkd4He_Ir/F9-_LmQ/lA/7wVYD8wc2mrcGfEJ/EltsWg/GEEFZUIz/ChMB",
-    "status": 201,
-    "mimeType": "application/json"
-  },
-  {
-    "method": "GET",
-    "url": "https://c.go-mpulse.net/api/config.json?key\u003dUVSHE-GCJLK-WWV6T-8B6W8-FP7ZJ\u0026d\u003dwww.cielo.com.br\u0026t\u003d5906241\u0026v\u003d1.720.0\u0026sl\u003d0\u0026si\u003da6b925f0-ae53-4e8f-92f1-f493c45eeb48-taxdbf\u0026plugins\u003dAK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,History,Angular,Backbone,Ember,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,Early,EventTiming,LOGN\u0026acao\u003d\u0026ak.ai\u003d193822",
-    "status": 204,
-    "mimeType": "application/json"
   },
   {
     "method": "GET",
@@ -979,13 +961,7 @@
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/lp_home/solution-cards/cielo-tap/ios.webp",
-    "status": 200,
-    "mimeType": "image/webp"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/lp_home/solution-cards/cielo-tap/cielo-tap.webp",
+    "url": "https://www.cielo.com.br/assets_cielo/lp_home/solution-cards/produtos/farol.webp",
     "status": 200,
     "mimeType": "image/webp"
   },
@@ -997,7 +973,31 @@
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/lp_home/solution-cards/produtos/farol.webp",
+    "url": "https://www.cielo.com.br/assets_cielo/lp_home/solution-cards/cielo-tap/ios.webp",
+    "status": 200,
+    "mimeType": "image/webp"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/assets_cielo/lp_home/bigCompanies/seta-direita.svg",
+    "status": 200,
+    "mimeType": "image/svg+xml"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/assets_cielo/footer_icons/facebook.svg",
+    "status": 200,
+    "mimeType": "image/svg+xml"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/assets_cielo/footer_icons/linkedin.svg",
+    "status": 200,
+    "mimeType": "image/svg+xml"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/assets_cielo/lp_home/solution-cards/cielo-tap/android.webp",
     "status": 200,
     "mimeType": "image/webp"
   },
@@ -1021,63 +1021,15 @@
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/lp_home/bigCompanies/seta-direita.svg",
-    "status": 200,
-    "mimeType": "image/svg+xml"
-  },
-  {
-    "method": "GET",
     "url": "https://www.cielo.com.br/assets_cielo/lp_home/bigCompanies/constance.webp",
     "status": 200,
     "mimeType": "image/webp"
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/footer_icons/facebook.svg",
-    "status": 200,
-    "mimeType": "image/svg+xml"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/footer_icons/linkedin.svg",
-    "status": 200,
-    "mimeType": "image/svg+xml"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/footer_icons/x.svg",
-    "status": 200,
-    "mimeType": "image/svg+xml"
-  },
-  {
-    "method": "GET",
     "url": "https://www.cielo.com.br/assets_cielo/footer_icons/youtube.svg",
     "status": 200,
     "mimeType": "image/svg+xml"
-  },
-  {
-    "method": "GET",
-    "url": "https://dev.visualwebsiteoptimizer.com/v.gif?cd\u003d0\u0026a\u003d849422\u0026d\u003dcielo.com.br\u0026u\u003dD6EA42E50E54A3739EE0D45876112C168\u0026h\u003d90e7e24ad9aa1718af5e626ff2e09da6\u0026t\u003dfalse",
-    "status": 200,
-    "mimeType": "image/gif"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/footer_icons/spotify.svg",
-    "status": 200,
-    "mimeType": "image/svg+xml"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/index.f075b844.d1803c17baad138d3391.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/index.514c5e7c.c2be7d0cf358d8479fa4.js",
-    "status": 200,
-    "mimeType": "application/javascript"
   },
   {
     "method": "GET",
@@ -1093,19 +1045,19 @@
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/lp_home/solution-cards/produtos/bg-farol-mobile.webp",
+    "url": "https://www.cielo.com.br/assets_cielo/footer_icons/spotify.svg",
     "status": 200,
-    "mimeType": "image/webp"
+    "mimeType": "image/svg+xml"
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/undefined",
-    "status": 404,
-    "mimeType": "text/html"
+    "url": "https://www.cielo.com.br/assets_cielo/footer_icons/x.svg",
+    "status": 200,
+    "mimeType": "image/svg+xml"
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/lp_home/solution-cards/cielo-tap/bg-mobile.webp",
+    "url": "https://www.cielo.com.br/assets_cielo/lp_home/solution-cards/produtos/bg-farol-mobile.webp",
     "status": 200,
     "mimeType": "image/webp"
   },
@@ -1117,159 +1069,27 @@
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/shared/menu/icons/user-login.svg",
-    "status": 200,
-    "mimeType": "image/svg+xml"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/shared/acessibilidade.svg",
-    "status": 200,
-    "mimeType": "image/svg+xml"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/lp_home/solution-cards/cielo-tap/bg-desktop.webp",
+    "url": "https://www.cielo.com.br/assets_cielo/lp_home/solution-cards/cielo-tap/bg-mobile.webp",
     "status": 200,
     "mimeType": "image/webp"
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/shared/menu/images/logo.svg",
-    "status": 200,
-    "mimeType": "image/svg+xml"
-  },
-  {
-    "method": "GET",
-    "url": "https://js-cdn.dynatrace.com/jstag/19223e8e12b/ruxitagent_D_10331260218130851.js",
+    "url": "https://dev.visualwebsiteoptimizer.com/cdn/edrv/worker-5b1a8337aef9c765d0961c2a01b45de5.br.js",
     "status": 200,
     "mimeType": "text/javascript"
   },
   {
     "method": "GET",
-    "url": "https://dev.visualwebsiteoptimizer.com/dcdn/settings.js?a\u003d849422\u0026settings_type\u003d4\u0026ts\u003d1771852911\u0026dt\u003ddesktop\u0026cc\u003dBR",
+    "url": "https://dev.visualwebsiteoptimizer.com/v.gif?cd\u003d0\u0026a\u003d849422\u0026d\u003dcielo.com.br\u0026u\u003dD2247E1E6D9BFBC991129B48D8457F94A\u0026h\u003de5041cafb064c27d1039d6ffdbdbd089\u0026t\u003dfalse",
     "status": 200,
-    "mimeType": "application/javascript"
+    "mimeType": "image/gif"
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/services//header-footer.json",
-    "status": 200,
-    "mimeType": "application/json"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/services///index.json",
-    "status": 200,
-    "mimeType": "application/json"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/lp_home/sliderProducts/bg/2025/05/image-01.webp",
-    "status": 200,
-    "mimeType": "image/webp"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/lp_home/sliderProducts/bg/2025/05/image-02.webp",
-    "status": 200,
-    "mimeType": "image/webp"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/lp_home/sliderProducts/bg/2025/05/image-03.webp",
-    "status": 200,
-    "mimeType": "image/webp"
-  },
-  {
-    "method": "GET",
-    "url": "https://minhaconta2.cielo.com.br/cms/page-layout?nameId\u003dfaixa_rotativa",
-    "status": 200,
-    "mimeType": "application/json"
-  },
-  {
-    "method": "GET",
-    "url": "https://minhaconta2.cielo.com.br/cms/page-layout?nameId\u003dhome_cielo_institucional",
-    "status": 200,
-    "mimeType": "application/json"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/lp_home/sliderProducts/bg/2025/05/image-04.webp",
-    "status": 200,
-    "mimeType": "image/webp"
-  },
-  {
-    "method": "GET",
-    "url": "https://dig-cms-siat-bucket-prd-208hkt.s3.sa-east-1.amazonaws.com/DESK_5613eea1f8.png?X-Amz-Algorithm\u003dAWS4-HMAC-SHA256\u0026X-Amz-Content-Sha256\u003dUNSIGNED-PAYLOAD\u0026X-Amz-Credential\u003dAKIA3I7ASDRML4KCYGG3%2F20260223%2Fsa-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date\u003d20260223T184254Z\u0026X-Amz-Expires\u003d900\u0026X-Amz-Signature\u003d455b5388c5e38f5e821cb312c0bf13255ea6faea0b096ffac0a2bd00fa04164b\u0026X-Amz-SignedHeaders\u003dhost\u0026x-id\u003dGetObject",
-    "status": 200,
-    "mimeType": "image/png"
-  },
-  {
-    "method": "GET",
-    "url": "https://dig-cms-siat-bucket-prd-208hkt.s3.sa-east-1.amazonaws.com/Frame_15674_1_f9a499892a.png?X-Amz-Algorithm\u003dAWS4-HMAC-SHA256\u0026X-Amz-Content-Sha256\u003dUNSIGNED-PAYLOAD\u0026X-Amz-Credential\u003dAKIA3I7ASDRML4KCYGG3%2F20260223%2Fsa-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date\u003d20260223T184254Z\u0026X-Amz-Expires\u003d900\u0026X-Amz-Signature\u003d96a68f18c3e3bad136d830fb2354effa0dd27b8c7b5382a75f433a25d87c3ced\u0026X-Amz-SignedHeaders\u003dhost\u0026x-id\u003dGetObject",
-    "status": 200,
-    "mimeType": "image/png"
-  },
-  {
-    "method": "GET",
-    "url": "https://dig-cms-siat-bucket-prd-208hkt.s3.sa-east-1.amazonaws.com/imagem_central_mobile_ddc5de6b06.png?X-Amz-Algorithm\u003dAWS4-HMAC-SHA256\u0026X-Amz-Content-Sha256\u003dUNSIGNED-PAYLOAD\u0026X-Amz-Credential\u003dAKIA3I7ASDRML4KCYGG3%2F20260223%2Fsa-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date\u003d20260223T184254Z\u0026X-Amz-Expires\u003d900\u0026X-Amz-Signature\u003d9d29276a2fd32fa183449be05ea1c26e541128dbc572b90e2ad0efb96362a6f3\u0026X-Amz-SignedHeaders\u003dhost\u0026x-id\u003dGetObject",
-    "status": 200,
-    "mimeType": "image/png"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/lp_home/sliderProducts/bg/2025/05/image-05.webp",
-    "status": 200,
-    "mimeType": "image/webp"
-  },
-  {
-    "method": "GET",
-    "url": "https://dig-cms-siat-bucket-prd-208hkt.s3.sa-east-1.amazonaws.com/bg_mobile_bee3201f50.png?X-Amz-Algorithm\u003dAWS4-HMAC-SHA256\u0026X-Amz-Content-Sha256\u003dUNSIGNED-PAYLOAD\u0026X-Amz-Credential\u003dAKIA3I7ASDRML4KCYGG3%2F20260223%2Fsa-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date\u003d20260223T184254Z\u0026X-Amz-Expires\u003d900\u0026X-Amz-Signature\u003de03c57f76980c19621a300db7fd0a7470fc0ed82648a3dd1f70048b5fc01ae55\u0026X-Amz-SignedHeaders\u003dhost\u0026x-id\u003dGetObject",
-    "status": 200,
-    "mimeType": "image/png"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/106.e21095bb10eb8a7a11f4.css",
-    "status": 200,
-    "mimeType": "text/css"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/107.1b8a63b39b82f898d3d0.css",
-    "status": 200,
-    "mimeType": "text/css"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/108.8c17850a2c34c3cdc6c3.css",
-    "status": 200,
-    "mimeType": "text/css"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/109.7c49b96231c9ab8ff1be.css",
-    "status": 200,
-    "mimeType": "text/css"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/110.df4e6a1724f7e06a6359.css",
-    "status": 200,
-    "mimeType": "text/css"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/111.ce1d72fce1cc63b289c2.css",
-    "status": 200,
-    "mimeType": "text/css"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/112.f9a71d72903692f44e68.css",
-    "status": 200,
-    "mimeType": "text/css"
+    "url": "https://www.cielo.com.br/undefined",
+    "status": 404,
+    "mimeType": "text/html"
   },
   {
     "method": "GET",
@@ -1297,9 +1117,57 @@
   },
   {
     "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/107.66e4fceac8c07b80cc75.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/108.cf7391a4580961a808a8.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/109.cc6d1567d8aef30805e0.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/110.1a02734918b164d63d90.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/111.148583e6263232ab2eeb.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/112.cdb42ad24f8f007d283b.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
     "url": "https://www.cielo.com.br/_nuxt/20.7f9445014c5c7041a38f.css",
     "status": 200,
     "mimeType": "text/css"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/113.8cf61b100d6b27efb27e.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/114.6ee9088c18f10f3efb3f.js",
+    "status": 200,
+    "mimeType": "application/javascript"
   },
   {
     "method": "GET",
@@ -1345,6 +1213,12 @@
   },
   {
     "method": "GET",
+    "url": "https://www.cielo.com.br/xkd4He_Ir/F9-_LmQ/lA/7wVYD8wc2mrcGfEJ/EltsWg/GEEFZUIz/ChMB",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
     "url": "https://www.cielo.com.br/_nuxt/pages/api/index.941f472c.ecf5d9c497c090371fd5.css",
     "status": 200,
     "mimeType": "text/css"
@@ -1360,6 +1234,18 @@
     "url": "https://www.cielo.com.br/_nuxt/pages/atendimento-ecomm/index.f075b844.9209ea4168ae3f65823e.css",
     "status": 200,
     "mimeType": "text/css"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/115.ecda46508d0557de2518.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/117.06d9a66fc4970047c9d0.js",
+    "status": 200,
+    "mimeType": "application/javascript"
   },
   {
     "method": "GET",
@@ -1441,6 +1327,48 @@
   },
   {
     "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/116.270b436dded2067b8f45.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/20.5a40141da7eff9daf45f.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/21.3f6b8835a6339942cc73.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/22.2a3970d8ea838c132798.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/23.2ef8d382d6674ef5bc87.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/24.661d8f470406732881ca.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/404.53ff51db.cda2be4f7060886273b7.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
     "url": "https://www.cielo.com.br/_nuxt/pages/central-de-atendimento/resultado/index.941f472c.bf653b8adfd0fabb57ef.css",
     "status": 200,
     "mimeType": "text/css"
@@ -1498,6 +1426,96 @@
     "url": "https://www.cielo.com.br/_nuxt/pages/conciliacao-financeira/index.f075b844.d72794fcef144767aa93.css",
     "status": 200,
     "mimeType": "text/css"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/acessibilidade/index.c1ad5e4d.b9b8e7a9cd2a0359097e.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/alianca/index.f075b844.18411abc0178119172f7.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/api/index.941f472c.cbb3b7b22f046b36794d.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/api/index.pages/checkout/index.pages/e-commerce/index.pages/link-de-pagamento/index.f075b844.218952cabbfdf25f69c6.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/atendimento-ecomm/index.f075b844.89a07c55213067a783ee.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/atendimento-em-libras/index.01e7b97c.4260e0c991848415a99f.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/bem-vindo/cielo-flash/index.f075b844.217cc762f6d2626bd5f3.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/bem-vindo/cielo-flash/index.pages/bem-vindo/cielo-lio-on/index.pages/bem-vindo/cielo-smart/ind.18795cfe.21659194f16ff8ff8339.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/bem-vindo/cielo-lio-on/index.f075b844.d060081ddd3f5e8f7239.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/bem-vindo/cielo-smart/index.d469a7c6.38e64b2912dbe3536cfe.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/bem-vindo/cielo-zip/index.f075b844.cfb426188aaf1e4eb0b6.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/central-de-atendimento/index.pages/central-de-atendimento/publicacao/index.pages/central-de-at.0edc3b96.7637e2431dd2f551ec6b.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/bem-vindo/index.f075b844.e8981c2c3f9b126dd03a.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/bradesco/index.f075b844.c7387320b26e76d567e6.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/black-friday/index.f075b844.bb78dbeeae241c91a126.js",
+    "status": 200,
+    "mimeType": "application/javascript"
   },
   {
     "method": "GET",
@@ -1591,9 +1609,183 @@
   },
   {
     "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/bb/index.f075b844.e5bf48ef3b3919996798.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/central-de-atendimento/index.f075b844.a4b99c1ed9f4ed13706d.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/central-de-atendimento/publicacao/index.941f472c.3a9a4c0010802802a5c4.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/central-de-atendimento/resultado/index.941f472c.11b15f9e4bbe3560a463.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/checkout/index.941f472c.5d85dd7c1ec5cbfbd6dd.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/cielo-conecta/index.f075b844.c0a5a41ddf99df10ce2f.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/cielo-franquias/index.f075b844.2f1131bc929f114a7c47.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/cielo-resolve-cliente/index.941f472c.d7290e2e3669d5df8e90.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/cielo-resolve/index.941f472c.9d9495816d796de34aa6.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/cielo-store/index.f075b844.5e07b0d2654b4dfb70ee.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/cielo-tap/index.f075b844.ecb460e2f5defe703a8b.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/comunidade-negocios-em-movimento/index.f075b844.6cceed43d94f619ecf54.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/conciliacao-financeira/index.f075b844.0b4ced71096173e7befa.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
     "url": "https://www.cielo.com.br/_nuxt/pages/mapa-do-site/index.1a814d42.31b44c5bd60a5eb5c024.css",
     "status": 200,
     "mimeType": "text/css"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/cartoes-aceitos/index.941f472c.a75058996fe5b418c143.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/contrato-de-credenciamento/index.f075b844.fe164aaf02a59b19f5e7.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/eleve/index.f075b844.b55ed9145c9ce72dad16.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/escolha-como-receber/index.f075b844.8614f2362ba74f43947e.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/link-de-pagamento/index.941f472c.e2c2dbde7e28db67506d.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/conheca-a-cielo/index.941f472c.5debb3f58b5b359e5e52.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/contrate-agora/index.f075b844.744874fdf8964b3536c9.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/e-commerce/index.941f472c.85d25a6cf9d47435b6fb.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/etica-e-integridade/index.f075b844.ad5974c57f82aee916f4.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/form-parceiro/index.f075b844.908503fc2b3a6a790e3e.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/fornecedores/index.f075b844.f2f428dd0c5483113d1d.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/gateway-de-pagamento/index.f075b844.8f4d0938182ec7cb1b83.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/gestao-de-risco/index.f075b844.7aa8710e39d8e483095c.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/inteligencia-artificial/index.f075b844.049352c82aac8ec04136.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/inteligencia-de-dados/index.f075b844.bafac2c8c9c9b777052e.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/loja-integrada/index.f075b844.bc5c74f919b01114acf1.js",
+    "status": 200,
+    "mimeType": "application/javascript"
   },
   {
     "method": "GET",
@@ -1729,6 +1921,42 @@
   },
   {
     "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/mapa-do-site/index.1a814d42.eaead4b85c4543342a6b.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/maquininhas-de-cartao/cielo-flash/index.f075b844.94c9e5dd2286091014eb.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/maquininhas-de-cartao/cielo-flash/index.pages/varejo/index.pages/venda-mais/cieloconversor/ind.e66e4f0c.0d3d7de5c3b1082bbcf8.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/maquininhas-de-cartao/cielo-lio-on/index.f075b844.1b69e09729f6b110b199.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/maquininhas-de-cartao/index.30433558.3a687bbdb9b50c09549c.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/minha-conta-cielo/index.f075b844.c51aef7f856b8cc2c69d.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
     "url": "https://www.cielo.com.br/_nuxt/pages/trabalhe-conosco/index.f075b844.2bf9d7da665deb74a336.css",
     "status": 200,
     "mimeType": "text/css"
@@ -1752,10 +1980,238 @@
     "mimeType": "text/css"
   },
   {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/patrocinios/index.f075b844.d9b8bb2e235b9b89af8f.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/planos/index.f075b844.5cb2654095551fb50a79.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/privacidade/index.941f472c.53c34c0b4f136fe60f3b.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/parceria-nuvemshop/index.941f472c.174aeca7ef3d0ec51ad4.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://cdn.evgnet.com/beacon/n55685555553vx3d3q23n3n3a655571615/cielo_produ/scripts/evergage.min.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/pix/index.f075b844.29d2ec14195dca769c03.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/pix/termo-de-uso/index.aca97159.4fdf81d14412ffcee2c6.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/relatorio-de-ouvidoria/index.941f472c.cd10c257361116ff8c35.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/sustentabilidade/central-de-downloads/index.941f472c.c79060d65498d0a7fc21.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/sustentabilidade/central-de-downloads/index.pages/sustentabilidade/impacto-na-governanca/index.328a8c90.922ff389ce60a707a450.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/sustentabilidade/impacto-na-governanca/index.6f3d4cef.ebceffaaae191062f8b3.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/sustentabilidade/impacto-na-governanca/index.pages/sustentabilidade/impacto-nas-pessoas/index..212961c6.e503c561a2ead8b52870.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/sustentabilidade/impacto-nas-pessoas/index.9ef16989.80b4146eb50764c8fa33.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/sustentabilidade/impacto-no-planeta/index.9e4470fa.1ffabb9fc3a263a3c783.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/tap-to-pay/index.f075b844.fbe4a1074fd35fde602d.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/split-de-pagamento/index.f075b844.5d5ae559a349264efd35.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/sustentabilidade/index.941f472c.303fbe9bb1fdbc03b339.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/termos-condicoes-de-uso/index.e172f611.7013f6bda8a462aa0c54.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/trabalhe-conosco/index.f075b844.4bba2ab27295896f091d.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/varejo/index.f075b844.b803bf7439b4685cc7ca.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/venda-mais/cieloconversor/index.f075b844.b6375d8a8d891abe64fe.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/venda-mais/cielofarol/index.f075b844.812c0772060ac32d0c55.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://s.go-mpulse.net/boomerang/UVSHE-GCJLK-WWV6T-8B6W8-FP7ZJ",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://js-cdn.dynatrace.com/jstag/19223e8e12b/bf08413vmu/26ad81c10515aeaa_complete.js",
+    "status": 200,
+    "mimeType": "text/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2",
+    "status": 200,
+    "mimeType": "font/woff2"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/fonts/Montserrat-500.woff2",
+    "status": 200,
+    "mimeType": "text/plain"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/fonts/Montserrat-700.woff2",
+    "status": 200,
+    "mimeType": "text/plain"
+  },
+  {
     "method": "POST",
     "url": "https://www.cielo.com.br/xkd4He_Ir/F9-_LmQ/lA/7wVYD8wc2mrcGfEJ/EltsWg/GEEFZUIz/ChMB",
     "status": 201,
     "mimeType": "application/json"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/index.f075b844.d1803c17baad138d3391.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/index.514c5e7c.c2be7d0cf358d8479fa4.js",
+    "status": 200,
+    "mimeType": "application/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://dev.visualwebsiteoptimizer.com/cdn/edrv/nc-cbe4ce5c5e7158d82b63082fb10f1596.br.js",
+    "status": 200,
+    "mimeType": "text/javascript"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/assets_cielo/shared/acessibilidade.svg",
+    "status": 200,
+    "mimeType": "image/svg+xml"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/assets_cielo/shared/menu/images/logo.svg",
+    "status": 200,
+    "mimeType": "image/svg+xml"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/assets_cielo/shared/menu/icons/user-login.svg",
+    "status": 200,
+    "mimeType": "image/svg+xml"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/assets_cielo/lp_home/sliderProducts/bg/2025/05/image-01.webp",
+    "status": 200,
+    "mimeType": "image/webp"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/assets_cielo/lp_home/sliderProducts/bg/2025/05/image-03.webp",
+    "status": 200,
+    "mimeType": "image/webp"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/assets_cielo/lp_home/sliderProducts/bg/2025/05/image-04.webp",
+    "status": 200,
+    "mimeType": "image/webp"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/assets_cielo/lp_home/sliderProducts/bg/2025/05/image-02.webp",
+    "status": 200,
+    "mimeType": "image/webp"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/assets_cielo/lp_home/sliderProducts/bg/2025/05/image-05.webp",
+    "status": 200,
+    "mimeType": "image/webp"
   },
   {
     "method": "GET",
@@ -1813,7 +2269,13 @@
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/lp_home/testimonials/camila.webp",
+    "url": "https://www.cielo.com.br/assets_cielo/lp_home/cardProducts/ecommerce/icone-split-de-pagamento.svg",
+    "status": 200,
+    "mimeType": "image/svg+xml"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/assets_cielo/lp_home/testimonials/premio-reclame-aqui.webp",
     "status": 200,
     "mimeType": "image/webp"
   },
@@ -1831,37 +2293,19 @@
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/lp_home/cardProducts/link-de-pagamento.webp",
-    "status": 200,
-    "mimeType": "image/webp"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/lp_home/cardProducts/cielo-tap.webp",
-    "status": 200,
-    "mimeType": "image/webp"
-  },
-  {
-    "method": "GET",
     "url": "https://www.cielo.com.br/assets_cielo/lp_home/cardProducts/maquininhas-de-cartao.webp",
     "status": 200,
     "mimeType": "image/webp"
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/lp_home/cardProducts/cielo-ecommerce.webp",
+    "url": "https://www.cielo.com.br/assets_cielo/lp_home/cardProducts/link-de-pagamento.webp",
     "status": 200,
     "mimeType": "image/webp"
   },
   {
     "method": "GET",
     "url": "https://www.cielo.com.br/assets_cielo/lp_home/cardProducts/ecommerce/icone-gestao-de-risco.svg",
-    "status": 200,
-    "mimeType": "image/svg+xml"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/lp_home/cardProducts/ecommerce/icone-split-de-pagamento.svg",
     "status": 200,
     "mimeType": "image/svg+xml"
   },
@@ -1876,12 +2320,6 @@
     "url": "https://www.cielo.com.br/assets_cielo/lp_home/cardProducts/ecommerce/icone-checkout.svg",
     "status": 200,
     "mimeType": "image/svg+xml"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/lp_home/offers/machines/maquininha-cielo-flash.webp",
-    "status": 200,
-    "mimeType": "image/webp"
   },
   {
     "method": "GET",
@@ -1903,25 +2341,19 @@
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/lp_home/offers/machines/maquininhas-cielo-oferta-especial.webp",
+    "url": "https://www.cielo.com.br/assets_cielo/lp_home/testimonials/avatar-adriana.webp",
+    "status": 200,
+    "mimeType": "image/webp"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/assets_cielo/lp_home/testimonials/maria.webp",
     "status": 200,
     "mimeType": "image/webp"
   },
   {
     "method": "GET",
     "url": "https://www.cielo.com.br/assets_cielo/lp_home/testimonials/avatar-premio-reclame-aqui.webp",
-    "status": 200,
-    "mimeType": "image/webp"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/lp_home/testimonials/avatar-camila.webp",
-    "status": 200,
-    "mimeType": "image/webp"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/lp_home/testimonials/avatar-adriana.webp",
     "status": 200,
     "mimeType": "image/webp"
   },
@@ -1939,115 +2371,19 @@
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/106.2ed861af12f9d3000ecf.js",
+    "url": "https://www.cielo.com.br/services//header-footer.json",
     "status": 200,
-    "mimeType": "application/javascript"
+    "mimeType": "application/json"
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/107.66e4fceac8c07b80cc75.js",
+    "url": "https://www.cielo.com.br/assets_cielo/lp_home/testimonials/camila.webp",
     "status": 200,
-    "mimeType": "application/javascript"
+    "mimeType": "image/webp"
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/108.cf7391a4580961a808a8.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/109.cc6d1567d8aef30805e0.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/110.1a02734918b164d63d90.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/111.148583e6263232ab2eeb.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/112.cdb42ad24f8f007d283b.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/113.8cf61b100d6b27efb27e.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/114.6ee9088c18f10f3efb3f.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/115.ecda46508d0557de2518.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/116.270b436dded2067b8f45.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/117.06d9a66fc4970047c9d0.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/20.5a40141da7eff9daf45f.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/21.3f6b8835a6339942cc73.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/22.2a3970d8ea838c132798.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/23.2ef8d382d6674ef5bc87.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/24.661d8f470406732881ca.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/404.53ff51db.cda2be4f7060886273b7.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/lp_home/testimonials/premio-reclame-aqui.webp",
+    "url": "https://www.cielo.com.br/assets_cielo/lp_home/cardProducts/cielo-ecommerce.webp",
     "status": 200,
     "mimeType": "image/webp"
   },
@@ -2059,441 +2395,87 @@
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/acessibilidade/index.c1ad5e4d.b9b8e7a9cd2a0359097e.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/alianca/index.f075b844.18411abc0178119172f7.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/api/index.941f472c.cbb3b7b22f046b36794d.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/api/index.pages/checkout/index.pages/e-commerce/index.pages/link-de-pagamento/index.f075b844.218952cabbfdf25f69c6.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/atendimento-ecomm/index.f075b844.89a07c55213067a783ee.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/atendimento-em-libras/index.01e7b97c.4260e0c991848415a99f.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/bb/index.f075b844.e5bf48ef3b3919996798.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/bem-vindo/cielo-flash/index.f075b844.217cc762f6d2626bd5f3.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/bem-vindo/cielo-flash/index.pages/bem-vindo/cielo-lio-on/index.pages/bem-vindo/cielo-smart/ind.18795cfe.21659194f16ff8ff8339.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/bem-vindo/cielo-lio-on/index.f075b844.d060081ddd3f5e8f7239.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/bem-vindo/cielo-smart/index.d469a7c6.38e64b2912dbe3536cfe.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/bem-vindo/cielo-zip/index.f075b844.cfb426188aaf1e4eb0b6.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/bem-vindo/index.f075b844.e8981c2c3f9b126dd03a.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/black-friday/index.f075b844.bb78dbeeae241c91a126.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/bradesco/index.f075b844.c7387320b26e76d567e6.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/cartoes-aceitos/index.941f472c.a75058996fe5b418c143.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/central-de-atendimento/index.f075b844.a4b99c1ed9f4ed13706d.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/central-de-atendimento/index.pages/central-de-atendimento/publicacao/index.pages/central-de-at.0edc3b96.7637e2431dd2f551ec6b.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/central-de-atendimento/publicacao/index.941f472c.3a9a4c0010802802a5c4.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/central-de-atendimento/resultado/index.941f472c.11b15f9e4bbe3560a463.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/checkout/index.941f472c.5d85dd7c1ec5cbfbd6dd.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/cielo-conecta/index.f075b844.c0a5a41ddf99df10ce2f.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/cielo-franquias/index.f075b844.2f1131bc929f114a7c47.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "POST",
-    "url": "https://bf08413vmu.bf.dynatrace.com/bf?type\u003djs3\u0026sn\u003dv_4_srv_-2D9200_sn_6EGH9HGHRDU61OCCN3VJIHV5L8JQDO0I\u0026svrid\u003d-9200\u0026flavor\u003dcors\u0026vi\u003dPBCTFCVPBBMEAGPROMHHROSUHCAPDEFS-0\u0026modifiedSince\u003d1771842980515\u0026bp\u003d3\u0026app\u003d26ad81c10515aeaa\u0026crc\u003d1634067130\u0026en\u003d1ih9nvmb\u0026end\u003d1",
-    "status": 200,
-    "mimeType": "text/plain"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/cielo-resolve-cliente/index.941f472c.d7290e2e3669d5df8e90.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/cielo-resolve/index.941f472c.9d9495816d796de34aa6.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/cielo-store/index.f075b844.5e07b0d2654b4dfb70ee.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/cielo-tap/index.f075b844.ecb460e2f5defe703a8b.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/comunidade-negocios-em-movimento/index.f075b844.6cceed43d94f619ecf54.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/conciliacao-financeira/index.f075b844.0b4ced71096173e7befa.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/conheca-a-cielo/index.941f472c.5debb3f58b5b359e5e52.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/assets_cielo/lp_home/testimonials/maria.webp",
+    "url": "https://www.cielo.com.br/assets_cielo/lp_home/offers/machines/maquininhas-cielo-oferta-especial.webp",
     "status": 200,
     "mimeType": "image/webp"
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/contrate-agora/index.f075b844.744874fdf8964b3536c9.js",
+    "url": "https://www.cielo.com.br/assets_cielo/lp_home/offers/machines/maquininha-cielo-flash.webp",
+    "status": 200,
+    "mimeType": "image/webp"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/assets_cielo/lp_home/cardProducts/cielo-tap.webp",
+    "status": 200,
+    "mimeType": "image/webp"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/assets_cielo/lp_home/testimonials/avatar-camila.webp",
+    "status": 200,
+    "mimeType": "image/webp"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/services///index.json",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "method": "GET",
+    "url": "https://minhaconta2.cielo.com.br/cms/page-layout?nameId\u003dfaixa_rotativa",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "method": "GET",
+    "url": "https://minhaconta2.cielo.com.br/cms/page-layout?nameId\u003dhome_cielo_institucional",
+    "status": 200,
+    "mimeType": "application/json"
+  },
+  {
+    "method": "GET",
+    "url": "https://dig-cms-siat-bucket-prd-208hkt.s3.sa-east-1.amazonaws.com/DESK_5613eea1f8.png?X-Amz-Algorithm\u003dAWS4-HMAC-SHA256\u0026X-Amz-Content-Sha256\u003dUNSIGNED-PAYLOAD\u0026X-Amz-Credential\u003dAKIA3I7ASDRML4KCYGG3%2F20260223%2Fsa-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date\u003d20260223T191445Z\u0026X-Amz-Expires\u003d900\u0026X-Amz-Signature\u003d9e02e4aa7f415d7eedc3c079f5dffeedd01de5aa83f17520da16eb627b0e9fc6\u0026X-Amz-SignedHeaders\u003dhost\u0026x-id\u003dGetObject",
+    "status": 200,
+    "mimeType": "image/png"
+  },
+  {
+    "method": "GET",
+    "url": "https://dig-cms-siat-bucket-prd-208hkt.s3.sa-east-1.amazonaws.com/Frame_15674_1_f9a499892a.png?X-Amz-Algorithm\u003dAWS4-HMAC-SHA256\u0026X-Amz-Content-Sha256\u003dUNSIGNED-PAYLOAD\u0026X-Amz-Credential\u003dAKIA3I7ASDRML4KCYGG3%2F20260223%2Fsa-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date\u003d20260223T191445Z\u0026X-Amz-Expires\u003d900\u0026X-Amz-Signature\u003d67354fd4c362ff26e00266d357b9a45d05d6e8374387fbd3003de55950ffbc65\u0026X-Amz-SignedHeaders\u003dhost\u0026x-id\u003dGetObject",
+    "status": 200,
+    "mimeType": "image/png"
+  },
+  {
+    "method": "GET",
+    "url": "https://dig-cms-siat-bucket-prd-208hkt.s3.sa-east-1.amazonaws.com/bg_mobile_bee3201f50.png?X-Amz-Algorithm\u003dAWS4-HMAC-SHA256\u0026X-Amz-Content-Sha256\u003dUNSIGNED-PAYLOAD\u0026X-Amz-Credential\u003dAKIA3I7ASDRML4KCYGG3%2F20260223%2Fsa-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date\u003d20260223T191445Z\u0026X-Amz-Expires\u003d900\u0026X-Amz-Signature\u003dd2e15882accff7806f100720d47db72422ed2bc34f1955f226cf6b852e4562e1\u0026X-Amz-SignedHeaders\u003dhost\u0026x-id\u003dGetObject",
+    "status": 200,
+    "mimeType": "image/png"
+  },
+  {
+    "method": "GET",
+    "url": "https://dev.visualwebsiteoptimizer.com/dcdn/settings.js?a\u003d849422\u0026settings_type\u003d4\u0026ts\u003d1771852911\u0026dt\u003ddesktop\u0026cc\u003dBR",
     "status": 200,
     "mimeType": "application/javascript"
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/contrato-de-credenciamento/index.f075b844.fe164aaf02a59b19f5e7.js",
+    "url": "https://js-cdn.dynatrace.com/jstag/19223e8e12b/ruxitagent_D_10331260218130851.js",
     "status": 200,
-    "mimeType": "application/javascript"
+    "mimeType": "text/javascript"
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/e-commerce/index.941f472c.85d25a6cf9d47435b6fb.js",
+    "url": "https://dig-cms-siat-bucket-prd-208hkt.s3.sa-east-1.amazonaws.com/imagem_central_mobile_ddc5de6b06.png?X-Amz-Algorithm\u003dAWS4-HMAC-SHA256\u0026X-Amz-Content-Sha256\u003dUNSIGNED-PAYLOAD\u0026X-Amz-Credential\u003dAKIA3I7ASDRML4KCYGG3%2F20260223%2Fsa-east-1%2Fs3%2Faws4_request\u0026X-Amz-Date\u003d20260223T191445Z\u0026X-Amz-Expires\u003d900\u0026X-Amz-Signature\u003d4473a48923fc213e8b7b3bc5c2cb482222a1e950cdfbb49b7a047aede42c3d7c\u0026X-Amz-SignedHeaders\u003dhost\u0026x-id\u003dGetObject",
     "status": 200,
-    "mimeType": "application/javascript"
+    "mimeType": "image/png"
   },
   {
     "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/eleve/index.f075b844.b55ed9145c9ce72dad16.js",
+    "url": "https://www.cielo.com.br/assets_cielo/lp_home/solution-cards/cielo-tap/bg-desktop.webp",
     "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/escolha-como-receber/index.f075b844.8614f2362ba74f43947e.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/etica-e-integridade/index.f075b844.ad5974c57f82aee916f4.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/fornecedores/index.f075b844.f2f428dd0c5483113d1d.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/gateway-de-pagamento/index.f075b844.8f4d0938182ec7cb1b83.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/gestao-de-risco/index.f075b844.7aa8710e39d8e483095c.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/inteligencia-artificial/index.f075b844.049352c82aac8ec04136.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/inteligencia-de-dados/index.f075b844.bafac2c8c9c9b777052e.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/link-de-pagamento/index.941f472c.e2c2dbde7e28db67506d.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/loja-integrada/index.f075b844.bc5c74f919b01114acf1.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/mapa-do-site/index.1a814d42.eaead4b85c4543342a6b.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/maquininhas-de-cartao/cielo-flash/index.f075b844.94c9e5dd2286091014eb.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/maquininhas-de-cartao/cielo-flash/index.pages/varejo/index.pages/venda-mais/cieloconversor/ind.e66e4f0c.0d3d7de5c3b1082bbcf8.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/maquininhas-de-cartao/cielo-lio-on/index.f075b844.1b69e09729f6b110b199.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/maquininhas-de-cartao/index.30433558.3a687bbdb9b50c09549c.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/form-parceiro/index.f075b844.908503fc2b3a6a790e3e.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/minha-conta-cielo/index.f075b844.c51aef7f856b8cc2c69d.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/parceria-nuvemshop/index.941f472c.174aeca7ef3d0ec51ad4.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/pix/index.f075b844.29d2ec14195dca769c03.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/pix/termo-de-uso/index.aca97159.4fdf81d14412ffcee2c6.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/planos/index.f075b844.5cb2654095551fb50a79.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/privacidade/index.941f472c.53c34c0b4f136fe60f3b.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/relatorio-de-ouvidoria/index.941f472c.cd10c257361116ff8c35.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/split-de-pagamento/index.f075b844.5d5ae559a349264efd35.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/patrocinios/index.f075b844.d9b8bb2e235b9b89af8f.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/sustentabilidade/central-de-downloads/index.941f472c.c79060d65498d0a7fc21.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/sustentabilidade/central-de-downloads/index.pages/sustentabilidade/impacto-na-governanca/index.328a8c90.922ff389ce60a707a450.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/sustentabilidade/impacto-na-governanca/index.6f3d4cef.ebceffaaae191062f8b3.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/sustentabilidade/impacto-na-governanca/index.pages/sustentabilidade/impacto-nas-pessoas/index..212961c6.e503c561a2ead8b52870.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/sustentabilidade/impacto-nas-pessoas/index.9ef16989.80b4146eb50764c8fa33.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/sustentabilidade/impacto-no-planeta/index.9e4470fa.1ffabb9fc3a263a3c783.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/sustentabilidade/index.941f472c.303fbe9bb1fdbc03b339.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/varejo/index.f075b844.b803bf7439b4685cc7ca.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/venda-mais/cieloconversor/index.f075b844.b6375d8a8d891abe64fe.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/venda-mais/cielofarol/index.f075b844.812c0772060ac32d0c55.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/tap-to-pay/index.f075b844.fbe4a1074fd35fde602d.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/termos-condicoes-de-uso/index.e172f611.7013f6bda8a462aa0c54.js",
-    "status": 200,
-    "mimeType": "application/javascript"
-  },
-  {
-    "method": "GET",
-    "url": "https://www.cielo.com.br/_nuxt/pages/trabalhe-conosco/index.f075b844.4bba2ab27295896f091d.js",
-    "status": 200,
-    "mimeType": "application/javascript"
+    "mimeType": "image/webp"
   },
   {
     "method": "GET",
@@ -2502,14 +2484,68 @@
     "mimeType": "image/vnd.microsoft.icon"
   },
   {
+    "method": "GET",
+    "url": "https://c.go-mpulse.net/api/config.json?key\u003dUVSHE-GCJLK-WWV6T-8B6W8-FP7ZJ\u0026d\u003dwww.cielo.com.br\u0026t\u003d5906247\u0026v\u003d1.720.0\u0026sl\u003d0\u0026si\u003ddcb73739-1fc7-4e31-a501-5950851aadaa-taxesj\u0026plugins\u003dAK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,History,Angular,Backbone,Ember,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,Early,EventTiming,LOGN\u0026acao\u003d\u0026ak.ai\u003d193822",
+    "status": 204,
+    "mimeType": "application/json"
+  },
+  {
     "method": "POST",
-    "url": "https://bf08413vmu.bf.dynatrace.com/bf?type\u003djs3\u0026sn\u003dv_4_srv_4_sn_6EGH9HGHRDU61OCCN3VJIHV5L8JQDO0I_app-3A26ad81c10515aeaa_1_ol_0_perc_100000_mul_1_rcs-3Acss_0\u0026svrid\u003d4\u0026flavor\u003dcors\u0026vi\u003dPBCTFCVPBBMEAGPROMHHROSUHCAPDEFS-0\u0026modifiedSince\u003d1771842980515\u0026bp\u003d3\u0026app\u003d26ad81c10515aeaa\u0026crc\u003d3958181212\u0026en\u003d1ih9nvmb\u0026end\u003d1",
+    "url": "https://www.cielo.com.br/xkd4He_Ir/F9-_LmQ/lA/7wVYD8wc2mrcGfEJ/EltsWg/GEEFZUIz/ChMB",
+    "status": 201,
+    "mimeType": "application/json"
+  },
+  {
+    "method": "POST",
+    "url": "https://bf08413vmu.bf.dynatrace.com/bf?type\u003djs3\u0026sn\u003dv_4_srv_-2D13497_sn_M76MJPNOP9HL2VHAFA4TGKLTGPNI3N2R\u0026svrid\u003d-13497\u0026flavor\u003dcors\u0026vi\u003dRAHUBFLKLFMRUVKDMHMUCCUWNACECOHR-0\u0026modifiedSince\u003d1771842980515\u0026bp\u003d3\u0026app\u003d26ad81c10515aeaa\u0026crc\u003d92257042\u0026en\u003d1ih9nvmb\u0026end\u003d1",
+    "status": 200,
+    "mimeType": "text/plain"
+  },
+  {
+    "method": "GET",
+    "url": "https://www.cielo.com.br/_nuxt/pages/404.53ff51db.0e4338761429b4eb16ac.css",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "method": "GET",
+    "url": "https://fonts.googleapis.com/css2?family\u003dMontserrat:wght@100;300;400;500;700;900\u0026display\u003dswap",
+    "status": 200,
+    "mimeType": "text/css"
+  },
+  {
+    "method": "OPTIONS",
+    "url": "https://bf08413vmu.bf.dynatrace.com/bf?type\u003djs3\u0026sn\u003dv_4_srv_5_sn_M76MJPNOP9HL2VHAFA4TGKLTGPNI3N2R_app-3A26ad81c10515aeaa_1_ol_0_perc_100000_mul_1_rcs-3Acss_0\u0026svrid\u003d5\u0026flavor\u003dcors\u0026vi\u003dRAHUBFLKLFMRUVKDMHMUCCUWNACECOHR-0\u0026contentType\u003dsrBm\u0026modifiedSince\u003d1771842980515\u0026bp\u003d3\u0026app\u003d26ad81c10515aeaa\u0026v\u003d10331260218130852\u0026crc\u003d794554912\u0026en\u003d1ih9nvmb\u0026end\u003d1",
+    "status": 200,
+    "mimeType": ""
+  },
+  {
+    "method": "POST",
+    "url": "https://bf08413vmu.bf.dynatrace.com/bf?type\u003djs3\u0026sn\u003dv_4_srv_5_sn_M76MJPNOP9HL2VHAFA4TGKLTGPNI3N2R_app-3A26ad81c10515aeaa_1_ol_0_perc_100000_mul_1_rcs-3Acss_0\u0026svrid\u003d5\u0026flavor\u003dcors\u0026vi\u003dRAHUBFLKLFMRUVKDMHMUCCUWNACECOHR-0\u0026contentType\u003dsrBm\u0026modifiedSince\u003d1771842980515\u0026bp\u003d3\u0026app\u003d26ad81c10515aeaa\u0026v\u003d10331260218130852\u0026crc\u003d794554912\u0026en\u003d1ih9nvmb\u0026end\u003d1",
+    "status": 200,
+    "mimeType": "text/plain"
+  },
+  {
+    "method": "OPTIONS",
+    "url": "https://bf08413vmu.bf.dynatrace.com/bf?type\u003djs3\u0026sn\u003dv_4_srv_5_sn_M76MJPNOP9HL2VHAFA4TGKLTGPNI3N2R_app-3A26ad81c10515aeaa_1_ol_0_perc_100000_mul_1_rcs-3Acss_0\u0026svrid\u003d5\u0026flavor\u003dcors\u0026vi\u003dRAHUBFLKLFMRUVKDMHMUCCUWNACECOHR-0\u0026contentType\u003dsrBm\u0026modifiedSince\u003d1771842980515\u0026bp\u003d3\u0026app\u003d26ad81c10515aeaa\u0026v\u003d10331260218130852\u0026crc\u003d2246634206\u0026en\u003d1ih9nvmb\u0026end\u003d1",
+    "status": 200,
+    "mimeType": ""
+  },
+  {
+    "method": "POST",
+    "url": "https://bf08413vmu.bf.dynatrace.com/bf?type\u003djs3\u0026sn\u003dv_4_srv_5_sn_M76MJPNOP9HL2VHAFA4TGKLTGPNI3N2R_app-3A26ad81c10515aeaa_1_ol_0_perc_100000_mul_1_rcs-3Acss_0\u0026svrid\u003d5\u0026flavor\u003dcors\u0026vi\u003dRAHUBFLKLFMRUVKDMHMUCCUWNACECOHR-0\u0026modifiedSince\u003d1771842980515\u0026bp\u003d3\u0026app\u003d26ad81c10515aeaa\u0026crc\u003d3709717886\u0026en\u003d1ih9nvmb\u0026end\u003d1",
     "status": 200,
     "mimeType": "text/plain"
   },
   {
     "method": "POST",
-    "url": "https://bf08413vmu.bf.dynatrace.com/bf?type\u003djs3\u0026sn\u003dv_4_srv_4_sn_6EGH9HGHRDU61OCCN3VJIHV5L8JQDO0I_app-3A26ad81c10515aeaa_1_ol_0_perc_100000_mul_1_rcs-3Acss_0\u0026svrid\u003d4\u0026flavor\u003dcors\u0026vi\u003dPBCTFCVPBBMEAGPROMHHROSUHCAPDEFS-0\u0026modifiedSince\u003d1771842980515\u0026bp\u003d3\u0026app\u003d26ad81c10515aeaa\u0026crc\u003d874336477\u0026en\u003d1ih9nvmb\u0026end\u003d1",
+    "url": "https://bf08413vmu.bf.dynatrace.com/bf?type\u003djs3\u0026sn\u003dv_4_srv_5_sn_M76MJPNOP9HL2VHAFA4TGKLTGPNI3N2R_app-3A26ad81c10515aeaa_1_ol_0_perc_100000_mul_1_rcs-3Acss_0\u0026svrid\u003d5\u0026flavor\u003dcors\u0026vi\u003dRAHUBFLKLFMRUVKDMHMUCCUWNACECOHR-0\u0026contentType\u003dsrBm\u0026modifiedSince\u003d1771842980515\u0026bp\u003d3\u0026app\u003d26ad81c10515aeaa\u0026v\u003d10331260218130852\u0026crc\u003d2246634206\u0026en\u003d1ih9nvmb\u0026end\u003d1",
+    "status": 200,
+    "mimeType": "text/plain"
+  },
+  {
+    "method": "POST",
+    "url": "https://bf08413vmu.bf.dynatrace.com/bf?type\u003djs3\u0026sn\u003dv_4_srv_5_sn_M76MJPNOP9HL2VHAFA4TGKLTGPNI3N2R_app-3A26ad81c10515aeaa_1_ol_0_perc_100000_mul_1_rcs-3Acss_0\u0026svrid\u003d5\u0026flavor\u003dcors\u0026vi\u003dRAHUBFLKLFMRUVKDMHMUCCUWNACECOHR-0\u0026contentType\u003dsrTe\u0026modifiedSince\u003d1771842980515\u0026bp\u003d3\u0026app\u003d26ad81c10515aeaa\u0026v\u003d10331260218130852\u0026crc\u003d365732178\u0026en\u003d1ih9nvmb\u0026end\u003d1",
     "status": 200,
     "mimeType": "text/plain"
   }

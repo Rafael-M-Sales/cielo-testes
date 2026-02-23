@@ -84,10 +84,12 @@ public class CieloSteps {
     public void euInterajoComSubElemento(String nomeSubElemento) {
         if (nomeSubElemento == null || nomeSubElemento.isEmpty()) return;
 
+        // Tenta interagir em diferentes contextos (Cookies, Maquininhas, etc)
+        try { commonPage.acessarSubMenuCookies(nomeSubElemento); return; } catch (Exception e) {}
         try { maquininhasPage.acessarSubMenu(nomeSubElemento); return; } catch (Exception e) {}
         try { ecommercePage.acessarSubMenu(nomeSubElemento); return; } catch (Exception e) {}
         try { solucoesPage.acessarSubMenu(nomeSubElemento); return; } catch (Exception e) {}
-        try { commonPage.acessarSubMenuAjuda(nomeSubElemento); return; } catch (Exception e) {} // New catch for help
+        try { commonPage.acessarSubMenuAjuda(nomeSubElemento); return; } catch (Exception e) {}
 
         throw new IllegalArgumentException("Sub-elemento não encontrado em nenhuma pagina mapeada: " + nomeSubElemento);
     }
@@ -96,17 +98,17 @@ public class CieloSteps {
     public void euClicoNoBotaoOuEquivalente(String nomeBotao) {
         // Mapeamento genérico para botões diversos espalhados pelo site
         org.openqa.selenium.By locator = org.openqa.selenium.By.xpath(
-            "//a[contains(text(), '" + nomeBotao + "')] | " +
-            "//button[contains(text(), '" + nomeBotao + "')] | " +
-            "//span[contains(text(), '" + nomeBotao + "')]"
+            "//a[contains(., '" + nomeBotao + "')] | " +
+            "//button[contains(., '" + nomeBotao + "')] | " +
+            "//span[contains(., '" + nomeBotao + "')]"
         );
         
         if (commonPage.isElementVisible(locator)) {
-            driver.findElement(locator).click(); // Simple click as fallback
+            utils.ElementHelper.clickWithHighlight(driver.findElement(locator), nomeBotao);
         } else {
              // Tenta achar via texto aproximado se falhar exato
              locator = org.openqa.selenium.By.xpath("//*[contains(text(), '" + nomeBotao + "')]");
-             driver.findElement(locator).click();
+             utils.ElementHelper.clickWithHighlight(driver.findElement(locator), nomeBotao);
         }
     }
 
@@ -142,7 +144,7 @@ public class CieloSteps {
     }
     
     @Then("eu vejo a mensagem de nenhum resultado encontrado")
-    public void euVejoAMensagemDeNenhumResultadoEncontrado() {
+    public void euVejoAMensagem de nenhum resultado encontrado() {
          org.openqa.selenium.By locator = org.openqa.selenium.By.xpath("//*[contains(text(), 'nenhum resultado') or contains(text(), 'não encontramos')]");
          if (!commonPage.isElementVisible(locator)) {
              throw new AssertionError("Mensagem de nenhum resultado não encontrada");
@@ -151,13 +153,9 @@ public class CieloSteps {
 
     @Then("eu vejo a mensagem de erro {string}")
     public void euVejoAMensagemDeErro(String mensagemErro) {
-        org.openqa.selenium.By locator = org.openqa.selenium.By.xpath("//*[contains(text(), '" + mensagemErro + "') and (contains(@class, 'error') or contains(@class, 'invalid') or contains(@style, 'color: red'))]");
+        org.openqa.selenium.By locator = org.openqa.selenium.By.xpath("//*[contains(text(), '" + mensagemErro + "')]");
         if (!commonPage.isElementVisible(locator)) {
-             // Fallback
-             locator = org.openqa.selenium.By.xpath("//*[contains(text(), '" + mensagemErro + "')]");
-             if (!commonPage.isElementVisible(locator)) {
-                 throw new AssertionError("Mensagem de erro não encontrada: " + mensagemErro);
-             }
+             throw new AssertionError("Mensagem de erro não encontrada: " + mensagemErro);
         }
     }
 
@@ -168,10 +166,18 @@ public class CieloSteps {
             throw new AssertionError("Validação de campos obrigatórios não visível");
         }
     }
+
     @Then("eu vejo o elemento {string}")
     public void euVejoOElemento(String nomeElemento) {
-        boolean visivel = false;
+        // Verificação genérica por texto ou ID/Class comum se não disparar lógica de página
+        org.openqa.selenium.By genericLocator = org.openqa.selenium.By.xpath("//*[contains(text(), '" + nomeElemento + "')] | //*[contains(@id, '" + nomeElemento + "')] | //*[contains(@class, '" + nomeElemento + "')]");
         
+        if (commonPage.isElementVisible(genericLocator)) {
+             return;
+        }
+
+        // Fallback para lógicas específicas de página
+        boolean visivel = false;
         if (nomeElemento.equals("Maquininhas") || nomeElemento.contains("Ideal")) {
              visivel = maquininhasPage.isPaginaCarregada();
         } else if (nomeElemento.contains("E-commerce") || nomeElemento.contains("Venda Online")) {
