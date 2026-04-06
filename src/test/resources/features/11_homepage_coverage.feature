@@ -1,21 +1,21 @@
 # language: pt
-Funcionalidade: Cobertura da Homepage e Footer
+Funcionalidade: Cobertura Total de Elementos - Screen Scanning
 
   Contexto:
     Dado que eu acesso a página inicial da Cielo
     E eu fecho o popup
 
-  @Homepage @CTAs
-  Esquema do Cenário: Validar CTAs da Homepage <Elemento>
-    Quando eu clico no botão "<Elemento>"
-    Então eu tiro um screenshot do resultado "Redirecionamento_CTA"
-
-    Exemplos:
-      | Elemento                 |
-      | Maquininha no celular    |
-      | Soluções personalizadas  |
-      | CTA E-commerce           |
-      | Começar a vender         |
+  @Smoke @Mapping
+  Cenário: Validar integridade visual e funcional de todos os elementos constantes
+    Dado que eu acesso a página inicial da Cielo
+    E eu fecho o popup
+    Então eu verifico todos os elementos da tela de "Página Inicial"
+    
+    Quando eu destaco e clico no elemento "Maquininhas"
+    Então eu verifico todos os elementos da tela de "Maquininhas"
+    
+    Quando eu destaco e clico no elemento "E-commerce"
+    Então eu verifico todos os elementos da tela de "E-commerce"
 
   @Homepage @Footer
   Esquema do Cenário: Navegar pelo Footer <Link>

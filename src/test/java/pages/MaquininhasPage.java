@@ -17,6 +17,11 @@ public class MaquininhasPage extends BasePage {
     // Page Elements
     private final By titulo = By.xpath("//h1[contains(., 'Maquininhas')]");
     private final By bannerMaquininhas = By.xpath("//h1[contains(., 'Maquininhas') or contains(., 'Ideal')] | //section[contains(@class, 'hero')]");
+    
+    // Novos elementos constantes na página
+    private final By btnQueroMinhaMaquininha = By.xpath("//a[contains(., 'Quero minha maquininha') or contains(., 'Pedir agora')]");
+    private final By linkCompararModelos = By.xpath("//a[contains(., 'Comparar') or contains(., 'ver todos os modelos')]");
+    private final By sectionDuvidas = By.xpath("//section[contains(., 'Dúvidas') or contains(@id, 'faq')]");
 
     // Methods
     public boolean isPaginaCarregada() {

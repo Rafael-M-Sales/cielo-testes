@@ -15,6 +15,11 @@ public class EcommercePage extends BasePage {
     private final By linkApiEcommerce = By.xpath("//a[contains(., 'API E-commerce')]");
     
     private final By tituloEcommerce = By.xpath("//h1[contains(., 'E-commerce') or contains(., 'Venda Online')]");
+    
+    // Novos constantes
+    private final By linkPortalDev = By.xpath("//a[contains(., 'Portal de Desenvolvedores')]");
+    private final By badgeSeguranca = By.xpath("//span[contains(., 'Segurança') or contains(@class, 'pci')]");
+    private final By btnVerSaibaMais = By.xpath("//button[contains(., 'Saiba mais') or contains(., 'Ver detalhes')]");
 
     public void acessarPaginaEcommerce() {
         click(menuEcommerce);

@@ -28,6 +28,15 @@ public class CommonPage extends BasePage {
     private final By btnAceitarCookies = By.xpath("//button[contains(., 'Aceitar tudo')]");
     private final By linkPrivacidade = By.xpath("//a[contains(text(), 'Privacidade')]");
 
+    // Elementos Constantes (Header/Footer)
+    private final By logoCielo = By.xpath("//header//a[@aria-label='Cielo' or contains(@class, 'logo')]");
+    private final By inputBusca = By.xpath("//input[@placeholder='Digite a sua dúvida' or @type='search' or contains(@class, 'search')]");
+    private final By linkTrabalheConosco = By.xpath("//footer//a[contains(., 'Trabalhe conosco')]");
+    private final By linkInstagram = By.xpath("//footer//a[contains(@href, 'instagram.com')]");
+    private final By linkFacebook = By.xpath("//footer//a[contains(@href, 'facebook.com')]");
+    private final By linkLinkedin = By.xpath("//footer//a[contains(@href, 'linkedin.com')]");
+    private final By linkYoutube = By.xpath("//footer//a[contains(@href, 'youtube.com')]");
+
     // Actions
     public void acessarMaquininhas() {
         click(linkMaquininhas);

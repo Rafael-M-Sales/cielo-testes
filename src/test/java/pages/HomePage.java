@@ -35,6 +35,12 @@ public class HomePage extends BasePage {
     private final By btnMaquininhaNoCelular = By.xpath("//button[contains(@class, 'cta') and .//span[contains(text(), 'Maquininha no celular')]]");
     private final By btnSolucoesPersonalizadas = By.xpath("//button[contains(@class, 'cta') and .//span[contains(text(), 'Soluções personalizadas')]]");
     private final By btnCtaEcommerce = By.xpath("//button[contains(@class, 'cta') and .//span[contains(text(), 'E-commerce')]]");
+    
+    // Elementos Estruturais da Home
+    private final By sectionBanners = By.xpath("//section[contains(@class, 'hero') or contains(@class, 'banner')]");
+    private final By sectionProdutos = By.xpath("//section[contains(., 'Produtos') or contains(., 'maquininhas')]");
+    private final By sectionBlogCielo = By.xpath("//section[contains(., 'Blog') or contains(@class, 'blog')]");
+    private final By sectionFooterPre = By.xpath("//section[contains(., 'Pronto para vender')]");
 
     public void clicarCtaMaquininhaCelular() {
         click(btnMaquininhaNoCelular);

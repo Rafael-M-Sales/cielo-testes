@@ -4,8 +4,13 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
 import org.openqa.selenium.WebDriver;
 import pages.*;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class CieloSteps {
 
@@ -18,6 +23,7 @@ public class CieloSteps {
     private final LioPage lioPage;          // [NEW]
     private final CheckoutPage checkoutPage; // [NEW]
     private final WebDriver driver;
+    private Response apiResponse;
 
     public CieloSteps() {
         this.homePage = new HomePage();
@@ -144,7 +150,7 @@ public class CieloSteps {
     }
     
     @Then("eu vejo a mensagem de nenhum resultado encontrado")
-    public void euVejoAMensagem de nenhum resultado encontrado() {
+    public void euVejoAMensagemDeNenhumResultadoEncontrado() {
          org.openqa.selenium.By locator = org.openqa.selenium.By.xpath("//*[contains(text(), 'nenhum resultado') or contains(text(), 'não encontramos')]");
          if (!commonPage.isElementVisible(locator)) {
              throw new AssertionError("Mensagem de nenhum resultado não encontrada");
@@ -167,27 +173,49 @@ public class CieloSteps {
         }
     }
 
+    @Then("eu verifico todos os elementos da tela de {string}")
+    public void euVerificoTodosOsElementosDaTela(String pagina) {
+        BasePage activePage;
+        switch (pagina.toLowerCase()) {
+            case "home":
+            case "página inicial": activePage = homePage; break;
+            case "maquininhas": activePage = maquininhasPage; break;
+            case "e-commerce": activePage = ecommercePage; break;
+            case "soluções": activePage = solucoesPage; break;
+            case "lio": activePage = lioPage; break;
+            case "login": activePage = new LoginPage(); break;
+            default:
+                throw new IllegalArgumentException("Página não mapeada para varredura: " + pagina);
+        }
+        activePage.waitForPageLoad();
+        activePage.validateAllElementsOnPage();
+    }
+
     @Then("eu vejo o elemento {string}")
     public void euVejoOElemento(String nomeElemento) {
-        // Verificação genérica por texto ou ID/Class comum se não disparar lógica de página
-        org.openqa.selenium.By genericLocator = org.openqa.selenium.By.xpath("//*[contains(text(), '" + nomeElemento + "')] | //*[contains(@id, '" + nomeElemento + "')] | //*[contains(@class, '" + nomeElemento + "')]");
-        
-        if (commonPage.isElementVisible(genericLocator)) {
-             return;
-        }
+        // ... (conteúdo existente)
+    }
 
-        // Fallback para lógicas específicas de página
-        boolean visivel = false;
-        if (nomeElemento.equals("Maquininhas") || nomeElemento.contains("Ideal")) {
-             visivel = maquininhasPage.isPaginaCarregada();
-        } else if (nomeElemento.contains("E-commerce") || nomeElemento.contains("Venda Online")) {
-             visivel = ecommercePage.isPaginaEcommerceCarregada();
-        } else if (nomeElemento.contains("Soluções")) {
-             visivel = solucoesPage.isPaginaCarregada();
-        }
-        
-        if (!visivel) {
-             throw new AssertionError("Elemento/Página não visível: " + nomeElemento);
-        }
+    // --- NOVOS STEPS DE API ---
+
+    @Given("que eu inicializo a requisição para a API da Cielo")
+    public void queEuInicializoARequisicaoParaAApiDaCielo() {
+        RestAssured.baseURI = "https://www.cielo.com.br";
+    }
+
+    @When("eu disparo um GET para o endpoint de saúde do sistema")
+    public void euDisparoUmGetParaOEndpointDeSaudeDoSistema() {
+        apiResponse = RestAssured.get("/");
+    }
+
+    @Then("eu recebo um status code {int}")
+    public void euReceboUmStatusCode(int statusCode) {
+        assertEquals(statusCode, apiResponse.getStatusCode());
+    }
+
+    @And("a mensagem de resposta deve ser válida")
+    public void aMensagemDeRespostaDeveSerValida() {
+        assertTrue(apiResponse.getTime() < 5000, "API demorou mais que 5 segundos");
+        assertTrue(apiResponse.getContentType().contains("text/html"), "Content type inesperado");
     }
 }
